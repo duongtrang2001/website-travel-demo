@@ -1,0 +1,169 @@
+[
+    {
+        "id": 1,
+        "name": "Diamond",
+        "location": "Đà Nẵng",
+        "price": "750.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-5.jpg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn Diamond",
+        "contents": [
+            "Khách sạn Diamon, tọa lạc ngay trung tâm thành phố Đà Nẵng, đã đồng hành cùng du khách suốt hơn 10 năm qua, mang đến những trải nghiệm lưu trú tuyệt vời. Với vị trí thuận lợi, chỉ cách những điểm đến nổi tiếng như bãi biển Mỹ Khê hay cầu Rồng vài phút di chuyển, Diamon là lựa chọn lý tưởng cho cả khách du lịch lẫn những ai đến Đà Nẵng vì công việc.",
+            "Sự thân thiện và tận tâm của đội ngũ nhân viên chính là điểm nhấn của khách sạn, nơi mọi nhu cầu của bạn đều được chăm sóc chu đáo. Từ Wi-Fi miễn phí, an ninh 24 giờ, đến dịch vụ dọn phòng hàng ngày, tất cả đều được chuẩn bị kỹ lưỡng để bạn có thể tận hưởng kỳ nghỉ một cách thoải mái và không lo nghĩ. Các phòng nghỉ hiện đại và tiện nghi được thiết kế nhằm mang đến sự thư giãn, giúp bạn tái tạo năng lượng sau một ngày khám phá thành phố.",
+            "Tại Diamon, mỗi lần lưu trú là một hành trình trọn vẹn, nơi bạn luôn được chào đón bằng sự nhiệt tình và chuyên nghiệp."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.9956316283856!2d108.24714239398453!3d16.053707997670703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142177a5c9681ed%3A0x2d2f447313c82e78!2zMjcyIFbDtSBOZ3V5w6puIEdpw6FwLCBC4bqvYyBN4bu5IFBow7osIE5nxakgSMOgbmggU8ahbiwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1728492118473!5m2!1svi!2s"
+    },
+    {
+        "id": 2,
+        "name": "Emerald Bay",
+        "location": "Vịnh Hạ Long",
+        "price": "1.700.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-1.png",
+            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-2.jpeg",
+            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-5.jpeg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn Emerald Bay",
+        "contents": [
+            "Khách sạn Emerald Bay nằm giữa khung cảnh thiên nhiên tuyệt đẹp của Vịnh Hạ Long, mang đến một trải nghiệm nghỉ dưỡng sang trọng và yên bình. Khách sạn được thiết kế tinh tế với phong cách hiện đại nhưng vẫn giữ được nét duyên dáng của văn hóa Việt Nam. Các phòng nghỉ tại Emerald Bay đều hướng biển, giúp du khách thưởng thức trọn vẹn cảnh quan kỳ vĩ của vịnh với những dãy núi đá vôi sừng sững và làn nước trong xanh.",
+            "Tại đây, khách có thể tận hưởng các tiện nghi đẳng cấp như hồ bơi ngoài trời, spa thư giãn, và nhà hàng phục vụ các món ăn địa phương và quốc tế. Ngoài ra, Emerald Bay cũng cung cấp dịch vụ tổ chức tour tham quan vịnh, du thuyền và các hoạt động giải trí như kayak, lặn ngắm san hô, hứa hẹn mang đến cho du khách một kỳ nghỉ đáng nhớ. Khách sạn Emerald Bay thực sự là điểm dừng chân lý tưởng cho những ai muốn khám phá vẻ đẹp huyền diệu của Vịnh Hạ Long."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d10457.693791193396!2d107.01421398544329!3d20.946345939162565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1730051525553!5m2!1svi!2s"
+    },
+    {
+        "id": 3,
+        "name": "Garden",
+        "location": "Nha Trang",
+        "price": "2.000.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-5.jpg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn Garden",
+        "contents": [
+            "Khách sạn Garden tại Nha Trang mang đến trải nghiệm nghỉ dưỡng hoàn hảo cho những ai muốn tận hưởng kỳ nghỉ bên bờ biển. Nằm ở vị trí thuận lợi, khách sạn chỉ cách bãi biển vài bước chân, cho phép du khách dễ dàng chiêm ngưỡng vẻ đẹp của biển từ chính phòng nghỉ của mình.",
+            "Mỗi phòng tại Garden đều được thiết kế hiện đại, tinh tế, và đặc biệt là có ban công riêng với tầm nhìn biển tuyệt đẹp. Không gian phòng rộng rãi, đầy đủ tiện nghi, mang lại cảm giác thoải mái và thư giãn. Từng chi tiết trong phòng được bố trí cẩn thận để đáp ứng nhu cầu của du khách một cách hoàn hảo.",
+            "Ngoài ra, khách sạn còn có các dịch vụ tiện ích đa dạng như hồ bơi ngoài trời, nhà hàng phục vụ các món ăn hấp dẫn, và dịch vụ spa chuyên nghiệp. Garden Hotel Nha Trang không chỉ là nơi dừng chân, mà còn là không gian giúp du khách tận hưởng những khoảnh khắc thư giãn đẳng cấp giữa thành phố biển xinh đẹp."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3278.7186011773724!2d109.19594666177815!3d12.243167923198545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIE5oYSBUcmFuZw!5e0!3m2!1svi!2s!4v1730109496579!5m2!1svi!2s"
+    },
+    {
+        "id": 4,
+        "name": "Grand Sapphire",
+        "location": "Hội An",
+        "price": "800.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-5.jpg"
+        ],
+        "stars": 4,
+        "title": "Về khách sạn Grand Sapphire",
+        "contents": [
+            "Khách sạn Grand Sapphire tại Hội An là sự kết hợp tinh tế giữa nét đẹp cổ kính của phố cổ và sự sang trọng hiện đại. Nằm trong khu vực yên tĩnh nhưng thuận tiện di chuyển đến các điểm tham quan nổi tiếng, khách sạn mang đến không gian nghỉ dưỡng đẳng cấp với phong cách thiết kế lấy cảm hứng từ văn hóa truyền thống của Hội An.",
+            "Các phòng nghỉ tại Grand Sapphire được bài trí trang nhã với các chi tiết thủ công tinh tế, mang lại cảm giác ấm cúng và gần gũi. Mỗi phòng đều có ban công riêng hoặc cửa sổ lớn, giúp du khách có thể tận hưởng không khí trong lành và ngắm nhìn khung cảnh tuyệt đẹp xung quanh.",
+            "Bên cạnh đó, khách sạn còn cung cấp nhiều tiện ích như hồ bơi ngoài trời, khu spa thư giãn, và nhà hàng phục vụ ẩm thực đặc sắc từ món Việt đến các món quốc tế. Với sự phục vụ tận tình và chuyên nghiệp, Grand Sapphire chắc chắn sẽ là điểm dừng chân lý tưởng, giúp du khách có trải nghiệm khó quên tại Hội An."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d6104.484602943481!2d108.34954141129916!3d15.87619325510293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIEjhu5lpIEFu!5e0!3m2!1svi!2s!4v1730110181791!5m2!1svi!2s"
+    },
+    {
+        "id": 5,
+        "name": "Ruby",
+        "location": "Nha Trang",
+        "price": "1.300.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-2.jpeg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-5.jpg"
+        ],
+        "stars": 4,
+        "title": "Về khách sạn Ruby",
+        "contents": [
+            "Khách sạn Ruby tại Nha Trang là điểm dừng chân lý tưởng cho du khách muốn tận hưởng kỳ nghỉ với phong cách thoải mái và tiện nghi. Tọa lạc gần bãi biển, Ruby mang đến không gian nghỉ dưỡng hiện đại, sang trọng, cùng tầm nhìn biển tuyệt đẹp từ các phòng nghỉ và khu vực chung của khách sạn.",
+            "Mỗi phòng tại Ruby được thiết kế trang nhã, rộng rãi và đầy đủ tiện nghi nhằm mang lại trải nghiệm thoải mái nhất cho khách lưu trú. Từng chi tiết trong phòng được chăm chút cẩn thận, từ giường nệm êm ái đến nội thất hiện đại, giúp du khách cảm thấy thư giãn như ở nhà.",
+            "Khách sạn còn có các tiện ích nổi bật như hồ bơi ngoài trời xanh mát, nhà hàng với thực đơn phong phú kết hợp ẩm thực địa phương và quốc tế, cùng khu vực spa thư giãn. Đội ngũ nhân viên thân thiện, chuyên nghiệp luôn sẵn sàng hỗ trợ để mang đến kỳ nghỉ trọn vẹn cho du khách tại thành phố biển Nha Trang."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11564.008971558464!2d109.21196339924798!3d12.20090201638718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIE5oYSBUcmFuZw!5e0!3m2!1svi!2s!4v1730110684078!5m2!1svi!2s"
+    },
+    {
+        "id": 6,
+        "name": "The Muse",
+        "location": "Đà Nẵng",
+        "price": "1.500.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-1.png",
+            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-5.jpg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn The Muse",
+        "contents": [
+            "Khách sạn The Muse tại Đà Nẵng là nơi dừng chân lý tưởng cho du khách muốn khám phá vẻ đẹp của thành phố biển sôi động kết hợp với không gian lưu trú đẳng cấp và phong cách nghệ thuật độc đáo. Tọa lạc gần bãi biển Mỹ Khê và cách trung tâm thành phố chỉ vài phút đi xe, The Muse nổi bật với lối thiết kế hiện đại pha lẫn nét nghệ thuật tinh tế, mang đến trải nghiệm lưu trú thú vị và đầy cảm hứng.",
+            "Phòng nghỉ tại The Muse được thiết kế tỉ mỉ với tông màu hài hòa, nội thất cao cấp và cửa sổ lớn cho tầm nhìn thoáng đãng ra biển hoặc cảnh quan thành phố. Mỗi phòng đều được trang bị tiện nghi hiện đại, từ giường nệm êm ái đến phòng tắm sang trọng, tạo nên một không gian thư giãn hoàn hảo cho du khách.",
+            "The Muse còn sở hữu các tiện ích đa dạng như hồ bơi ngoài trời, quầy bar với view đẹp để thưởng thức đồ uống và ngắm hoàng hôn, cùng nhà hàng phục vụ các món ăn đa dạng, từ ẩm thực địa phương đến món ăn quốc tế. Với phong cách phục vụ chuyên nghiệp và tận tâm, The Muse mang đến cho du khách một kỳ nghỉ thoải mái và đáng nhớ tại Đà Nẵng."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10093.947367492634!2d108.23564532858563!3d16.06177148946851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1730111309389!5m2!1svi!2s"
+    },
+    {
+        "id": 7,
+        "name": "The Onyx",
+        "location": "Phú Quốc",
+        "price": "1.500.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-4.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-5.jpeg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn The Onyx",
+        "contents": [
+            "Khách sạn The Onyx tại Phú Quốc là điểm dừng chân hoàn hảo cho du khách tìm kiếm sự thanh bình và sang trọng giữa khung cảnh thiên nhiên tuyệt đẹp của đảo ngọc. Nằm gần bãi biển thơ mộng, The Onyx kết hợp hài hòa giữa thiết kế hiện đại và phong cách nhiệt đới, tạo nên không gian nghỉ dưỡng đẳng cấp nhưng vẫn gần gũi với thiên nhiên.",
+            "Mỗi phòng nghỉ tại The Onyx đều được thiết kế tinh tế với ban công riêng hoặc cửa sổ lớn, mang đến tầm nhìn hướng biển hoặc khu vườn xanh mát. Nội thất trong phòng được lựa chọn kỹ lưỡng, mang lại cảm giác sang trọng và thoải mái, từ giường ngủ êm ái đến phòng tắm hiện đại.",
+            "Khách sạn cung cấp nhiều tiện ích để du khách tận hưởng kỳ nghỉ trọn vẹn, bao gồm hồ bơi ngoài trời, khu spa thư giãn, và nhà hàng phục vụ đa dạng ẩm thực với các món đặc sản địa phương và quốc tế. Với đội ngũ nhân viên nhiệt tình, chuyên nghiệp, The Onyx cam kết mang đến trải nghiệm nghỉ dưỡng khó quên cho du khách tại Phú Quốc."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11125.740170246021!2d103.97092049167296!3d10.179411740408286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIFBow7ogUXXhu5Fj!5e0!3m2!1svi!2s!4v1730112004812!5m2!1svi!2s"
+    },
+    {
+        "id": 8,
+        "name": "The Royal Orchid",
+        "location": "Phú Quốc",
+        "price": "1.500.000 VND",
+        "images": [
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-1.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-2.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-3.jpg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-4.jpeg",
+            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-5.jpg"
+        ],
+        "stars": 5,
+        "title": "Về khách sạn The Royal Orchid",
+        "contents": [
+            "Khách sạn The Royal Orchid tại Phú Quốc là điểm đến lý tưởng cho du khách muốn trải nghiệm sự tinh tế và sang trọng giữa khung cảnh thiên nhiên hoang sơ của đảo ngọc. Tọa lạc ở vị trí thuận lợi gần bãi biển trong xanh, The Royal Orchid nổi bật với kiến trúc hiện đại pha lẫn phong cách Á Đông, tạo nên một không gian vừa trang nhã vừa ấm cúng.",
+            "Phòng nghỉ tại The Royal Orchid được thiết kế rộng rãi và trang bị nội thất cao cấp, mang đến không gian thư giãn hoàn hảo. Mỗi phòng đều có ban công riêng với tầm nhìn tuyệt đẹp ra biển hoặc khu vườn xanh mát, cho phép du khách hòa mình vào cảnh sắc thiên nhiên. Các tiện nghi trong phòng, từ giường nệm êm ái đến phòng tắm sang trọng, đều được chăm chút nhằm đảm bảo sự thoải mái tối đa cho du khách.",
+            "The Royal Orchid còn cung cấp nhiều tiện ích đẳng cấp, bao gồm hồ bơi ngoài trời xanh mát, spa với các liệu pháp thư giãn độc đáo, và nhà hàng phục vụ ẩm thực đa dạng từ các món ăn truyền thống Việt Nam đến những món ăn quốc tế. Với phong cách phục vụ tận tình và chuyên nghiệp, khách sạn The Royal Orchid hứa hẹn mang đến kỳ nghỉ đáng nhớ và trọn vẹn cho du khách tại Phú Quốc."
+        ],
+        "srcMap": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d44520.34806661967!2d103.99984814290039!3d10.053976202276262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zS2jDoWNoIHPhuqFuIFBow7ogUXXhu5Fj!5e0!3m2!1svi!2s!4v1730112527516!5m2!1svi!2s"
+    }
+]

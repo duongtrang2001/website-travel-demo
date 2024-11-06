@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en" data-page="hotelLocation">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Địa điểm khách sạn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ba993b4f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assits/css/base.css">
+    <link rel="stylesheet" href="/assits/css/grid.css">
+    <link rel="stylesheet" href="/assits/css/main.css">
+    <link rel="stylesheet" href="/assits/css/hotel-location.css">
+    <link rel="stylesheet" href="/assits/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/Default.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header" id="header-placeholder"></header>
+        <!-- container -->
+        <div class="container">
+            <div class="grid">
+                <div class="gallery row"></div>
+            </div>
+            <!-- thông tin về khách sạn -->
+            <div class="grid wide">
+                <div class="hotel-wrap row">
+                    <div class="hotel-info col l-8 m-12 c-12">
+                        <div class="info__review">
+                            <div class="info__review-wrap">
+                                <div class="info__review-star">
+                                    <i class="fa-solid fa-star info__review-level"></i>
+                                    <i class="fa-solid fa-star info__review-level"></i>
+                                    <i class="fa-solid fa-star info__review-level"></i>
+                                    <i class="fa-solid fa-star info__review-level"></i>
+                                </div>
+                                <div class="info__review-rate">
+                                    <div class="info__review-poin">5/5</div>
+                                    <div class="info__review-evaluate">Rất tốt</div>
+                                    <a href="#" class="info__review-quantity">(3 đánh giá)</a>
+                                    <div class="info__review-location">Đà Nẵng</div>
+                                </div>
+                            </div>
+                            <div class="info__review-interact">
+                                <div class="info__review-interact-share-wrap">
+                                    <span
+                                        class="material-symbols-outlined info__review-interact-icon info__review-interact-share">
+                                        share
+                                    </span>
+                                    <div class="info__review-interact-social">
+                                        <span class="info__review-interact-social-wrap">
+                                            <i class="fa-brands fa-facebook-f info__review-interact-social-icon"></i>
+                                        </span>
+                                        <div class="info__review-interact-social-wrap">
+                                            <i class="fa-brands fa-twitter info__review-interact-social-icon"></i>
+                                        </div>
+                                        <div class="info__review-interact-social-wrap">
+                                            <i class="fa-brands fa-pinterest-p info__review-interact-social-icon"></i>
+                                        </div>
+                                        <div class="info__review-interact-social-wrap">
+                                            <i class="fa-brands fa-linkedin-in info__review-interact-social-icon"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <i class="fa-regular fa-heart info__review-interact-icon info__review-interact-like active"></i>
+                                <i class="fa-solid fa-heart info__review-interact-icon info__review-interact-like info__review-interact-like--checked hidden"></i>
+                            </div>
+                        </div>
+                        <div class="info__content info__container">
+                            <h3 class="info__title">Về khách sạn Diamond</h3>
+                            <div class="info__content-text-wrap">
+                                <p class="info__content-text">
+                                    Khách sạn Diamon, tọa lạc ngay trung tâm thành phố Đà Nẵng, đã đồng hành cùng du khách suốt
+                                    hơn 10 năm qua, mang đến những trải nghiệm lưu trú tuyệt vời. Với vị trí thuận lợi, chỉ cách
+                                    những điểm đến nổi tiếng như bãi biển Mỹ Khê hay cầu Rồng vài phút di chuyển, Diamon là lựa
+                                    chọn lý tưởng cho cả khách du lịch lẫn những ai đến Đà Nẵng vì công việc.
+                                </p>
+                                <p class="info__content-text">Sự thân thiện và tận tâm của đội ngũ nhân viên chính là điểm nhấn
+                                    của khách sạn, nơi mọi nhu cầu của bạn đều được chăm sóc chu đáo. Từ Wi-Fi miễn phí, an ninh
+                                    24 giờ, đến dịch vụ dọn phòng hàng ngày, tất cả đều được chuẩn bị kỹ lưỡng để bạn có thể tận
+                                    hưởng kỳ nghỉ một cách thoải mái và không lo nghĩ. Các phòng nghỉ hiện đại và tiện nghi được
+                                    thiết kế nhằm mang đến sự thư giãn, giúp bạn tái tạo năng lượng sau một ngày khám phá thành
+                                    phố.</p>
+                                <p class="info__content-text">Tại Diamon, mỗi lần lưu trú là một hành trình trọn vẹn, nơi bạn
+                                    luôn được chào đón bằng sự nhiệt tình và chuyên nghiệp.</p>
+                            </div>
+                        </div>
+                        <div class="info__facilities info__container">
+                            <h3 class="info__title">Tiện ích khách sạn</h3>
+                            <div class="info__facilities-wrap">
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">mode_fan</span>
+                                    Điều hòa không khí
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">airport_shuttle</span>
+                                    Xe đưa đón
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">tv_gen</span>
+                                    Tivi màn hình phẳng
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">fireplace</span>
+                                    Máy sưởi
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">restaurant</span>
+                                    Nhà hàng
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">spa</span>
+                                    Spa & xông hơi
+                                </div>
+                                <div class="info__facility">
+                                    <span class="material-symbols-outlined info__facility-icon">local_laundry_service</span>
+                                    Máy giặt & máy sấy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info__booking info__container">
+                            <h3 class="info__title">Đặt phòng</h3>
+                            <div class="info__booking-wrap">
+                                <span class="info__booking-text">Thời gian đặt phòng</span>
+                                <span class="info__booking-time">12:00 pm</span>
+                            </div>
+                            <div class="info__booking-wrap">
+                                <span class="info__booking-text">Thời gian trả phòng</span>
+                                <span class="info__booking-time">12:00 pm</span>
+                            </div>
+                        </div>
+                        <div class="info__rooms info__container">
+                            <h3 class="info__title">Phòng có sẵn</h3>
+                            <div class="info__room-item">
+                                <img src="/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-4.jpg"
+                                    alt="Phòng đơn" class="info__room-img">
+                                <div class="info__room-wrap">
+                                    <span class="info__room-type">Phòng đơn</span>
+                                    <div class="info__room-detail">
+                                        <div class="info__room-detail-item">
+                                            <span
+                                                class="material-symbols-outlined info__room-detail-icon">square_foot</span>
+                                            <span class="info__room-detail-text">25 m&sup2</span>
+                                        </div>
+                                        <div class="info__room-detail-item">
+                                            <span class="material-symbols-outlined info__room-detail-icon">smoke_free</span>
+                                            <span class="info__room-detail-text">Không hút thuốc</span>
+                                        </div>
+                                        <div class="info__room-detail-item">
+                                            <span class="material-symbols-outlined info__room-detail-icon">king_bed</span>
+                                            <span class="info__room-detail-text">1 giường cỡ king</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info__room-cost">
+                                    <div class="info__room-price"><span>800.000 VND</span> /đêm</div>
+                                    <button class="info__room-more">Đặt phòng</button>
+                                </div>
+                            </div>
+                            <div class="info__room-item">
+                                <img src="/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-5.jpg"
+                                    alt="Phòng đôi" class="info__room-img">
+                                <div class="info__room-wrap">
+                                    <span class="info__room-type">Phòng đôi</span>
+                                    <div class="info__room-detail">
+                                        <div class="info__room-detail-item">
+                                            <span
+                                                class="material-symbols-outlined info__room-detail-icon">square_foot</span>
+                                            <span class="info__room-detail-text">30 m&sup2</span>
+                                        </div>
+                                        <div class="info__room-detail-item">
+                                            <span class="material-symbols-outlined info__room-detail-icon">smoke_free</span>
+                                            <span class="info__room-detail-text">Không hút thuốc</span>
+                                        </div>
+                                        <div class="info__room-detail-item">
+                                            <span class="material-symbols-outlined info__room-detail-icon">king_bed</span>
+                                            <span class="info__room-detail-text">1 giường đôi</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="info__room-cost">
+                                    <div class="info__room-price"><span>1.500.000 VND</span> /đêm</div>
+                                    <button class="info__room-more">Đặt phòng</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info__detail-reviews info__container">
+                            <h3 class="info__title">Đánh giá</h3>
+                            <div class="info__detail-reviews-wrap">
+                                <div class="reviews__overview">
+                                    <i class="fa-solid fa-star reviews__overview-icon"></i>
+                                    <span class="reviews__overview-text">5/5 Rất tốt</span>
+                                    <span class="reviews__overview-quantity">(3 đánh giá)</span>
+                                </div>
+                                <div class="reviews__detail">
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Sự sạch sẽ</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">5</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Độ chính xác</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">4</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Giao tiếp</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">5</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Vị trí</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">5</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Thủ tục nhận phòng</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">5</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                    <div class="reviews__detail-item">
+                                        <div class="reviews__detail-text">Giá hợp lý</div>
+                                        <div class="reviews__detail-ruler-wrap">
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--max"></div>
+                                            <div class="reviews__detail-ruler reviews__detail-ruler--current"></div>
+                                        </div>
+                                        <div class="reviews__detail-poin">
+                                            <span class="poin-current">5</span>/
+                                            <span class="poin-max">5</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- đánh giá của khách hàng -->
+                            <div class="info__review-content">
+                                <p class="info__review-total">3 lượt đánh giá về khách sạn - hiển thị 1 đến 3</p>
+                                <div class="info__review-list">
+                                    <div class="info__review-item">
+                                        <div class="info__review-user">
+                                            <div class="info__review-user-container">
+                                                <img src="/assits/img/user/user-1.jpeg" alt="Người dùng 1"
+                                                    class="info__review-user-avt">
+                                                <div class="info__review-user-wrap">
+                                                    <div class="info__review-user-name">Nguyễn Văn A</div>
+                                                    <div class="info__review-user-date">05/07/2024</div>
+                                                </div>
+                                            </div>
+                                            <div class="info__review-interact">
+                                                <div class="info__review-like-wrap">
+                                                    <i class="fa-regular fa-thumbs-up info__review-interact-like active"></i>
+                                                    <i class="fa-solid fa-thumbs-up info__review-interact-like checked hidden"></i>
+                                                </div>
+                                                <div class="info__review-interact-quantity">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="info__review-stars">
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                        </div>
+                                        <p class="info__review-text">
+                                            Kỳ nghỉ tại đây thực sự tuyệt vời! Phòng không chỉ rộng rãi mà còn vô cùng sạch
+                                            sẽ
+                                            và gọn gàng. Tôi đặc biệt ấn tượng với khu vực bếp tiện nghi. Tất cả đều mang
+                                            lại
+                                            cảm giác thoải mái như ở nhà. Chắc chắn tôi sẽ quay lại nếu có dịp ghé thăm!
+                                        </p>
+                                    </div>
+                                    <div class="info__review-item">
+                                        <div class="info__review-user">
+                                            <div class="info__review-user-container">
+                                                <img src="/assits/img/user/user-2.jpg" alt="Người dùng 2"
+                                                    class="info__review-user-avt">
+                                                <div class="info__review-user-wrap">
+                                                    <div class="info__review-user-name">Lê Văn A</div>
+                                                    <div class="info__review-user-date">10/08/2024</div>
+                                                </div>
+                                            </div>
+                                            <div class="info__review-interact">
+                                                <div class="info__review-like-wrap">
+                                                    <i class="fa-regular fa-thumbs-up info__review-interact-like active"></i>
+                                                    <i class="fa-solid fa-thumbs-up info__review-interact-like checked hidden"></i>
+                                                </div>
+                                                <div class="info__review-interact-quantity">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="info__review-stars">
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                        </div>
+                                        <p class="info__review-text">
+                                            Nếu bạn muốn tạm rời xa nhịp sống hối hả của thành phố, thuê một chiếc xe và đặt phòng tại Diamond là lựa chọn tuyệt vời. Chỗ ở không quá cầu kỳ nhưng mang lại cảm giác gần gũi, thoải mái, với không gian yên bình và không khí trong lành. Chỉ tiếc rằng tôi chỉ ở được 2 đêm, lần sau nhất định tôi sẽ quay lại đây để trải nghiệm thêm.
+                                        </p>
+                                    </div>
+                                    <div class="info__review-item">
+                                        <div class="info__review-user">
+                                            <div class="info__review-user-container">
+                                                <img src="/assits/img/user/user-3.jpg" alt="Người dùng 3"
+                                                    class="info__review-user-avt">
+                                                <div class="info__review-user-wrap">
+                                                    <div class="info__review-user-name">Trần Thị B</div>
+                                                    <div class="info__review-user-date">23/08/2024</div>
+                                                </div>
+                                            </div>
+                                            <div class="info__review-interact">
+                                                <div class="info__review-like-wrap">
+                                                    <i class="fa-regular fa-thumbs-up info__review-interact-like active"></i>
+                                                    <i class="fa-solid fa-thumbs-up info__review-interact-like checked hidden"></i>
+                                                </div>
+                                                <div class="info__review-interact-quantity">0</div>
+                                            </div>
+                                        </div>
+                                        <div class="info__review-stars">
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                            <i class="fa-solid fa-star info__review-star"></i>
+                                        </div>
+                                        <p class="info__review-text">
+                                            "Phòng sạch sẽ, nhân viên dễ mến" Phòng tôi ở có view biển rất đẹp, rộng rãi và cực kỳ sạch sẽ. Điều tôi ấn tượng nhất chính là sự thân thiện và nhiệt tình của đội ngũ nhân viên, họ luôn sẵn sàng hỗ trợ và khiến tôi cảm thấy thoải mái trong suốt thời gian lưu trú.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- Viet binh luan -->
+                                <div class="info__comment">
+                                    <button class="info__comment-btn" id="comment-btn">
+                                        Viết bình luận  
+                                        <i class="fa-solid fa-angle-down info__comment-icon active"></i>
+                                        <i class="fa-solid fa-angle-up info__comment-icon hidden"></i>
+                                    </button>
+                                </div>
+                                <div class="info__comment-container">
+                                    <h3 class="info__title">Để lại đánh giá của bạn</h3>
+                                    <p class="info__comment-sub">Địa chỉ email của bạn sẽ không được công khai. Các trường bắt buộc được đánh dấu *</p>
+                                    <form action="" class="info__comment-form">
+                                        <div class="comment__form-user">
+                                            <input type="text" placeholder="Tên *" required>
+                                            <input type="email" placeholder="Email *" required>
+                                        </div>
+                                        <input type="text" placeholder="Tiêu đề *" required>
+                                        <div class="comment__form-review">
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Sự sạch sẽ</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Độ chính xác</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Giao tiếp</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Vị trí</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Thủ tục nhận phòng</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                            <div class="comment__form-review-item">
+                                                <div class="comment__form-review-text">Giá hợp lý</div>
+                                                <div class="comment__form-review-stars">
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                    <i class="fa-solid fa-star comment__form-review-star-icon"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <textarea name="" id="" placeholder="Nội dung *" required></textarea>
+                                        <button class="info__comment-btn">Đăng bài đánh giá</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- đặt vé và địa chỉ map -->
+                    <div class="hotel__info-more col l-4 m-12 c-12">
+                        <div class="hotel__booking">
+                            <div class="booking__header">
+                                <button class="booking__header-name active" data-name="1">Đặt vé</button>
+                                <button class="booking__header-name" data-name="2">Thắc mắc</button>
+                            </div>
+                            <div class="booking__body">
+                                <!-- booking -->
+                                <div class="booking__content active" data-content="1">
+                                    <div class="booking__intro">
+                                        <div class="booking__cost">Từ <span>150.000 VND</span> /đêm</div>
+                                        <div class="booking__review">
+                                            <i class="fa-solid fa-star booking__review-icon"></i>
+                                            <span class="booking__review-text">5</span>
+                                            <span class="booking__view">(3 đánh giá)</span>
+                                        </div>
+                                    </div>
+                                    <form class="booking__form">
+                                        <div class="booking__form-info">
+                                            <div class="booking__book">
+                                                <div class="booking__book-date booking__select">
+                                                    <label for="check-in">Nhận phòng</label>
+                                                    <input type="text" class="selector" id="check-in" placeholder="Chọn ngày">
+                                                </div>
+                                                <div class="booking__book-date booking__select">
+                                                    <label for="check-out">Trả phòng</label>
+                                                    <input type="text" class="selector" id="check-out" placeholder="Chọn ngày">
+                                                </div>
+                                            </div>
+                                            <div class="booking__guest booking__select">
+                                                <label for="guest">Khách</label>
+                                                <input type="text" id="guest" placeholder="1 khách, 1 phòng">
+                                                <!-- Chọn số lượng khách, phòng -->
+                                                <div class="booking__guest-select">
+                                                    <div class="booking__guest-item">
+                                                        <div class="booking__guest-name">Khách</div>
+                                                        <div class="booking__guest-quantity">
+                                                            <span class="material-symbols-outlined booking__guest-quantity-adjust minus">
+                                                                remove
+                                                            </span>
+                                                            <div class="booking__guest-quantity-text">1</div>
+                                                            <span class="material-symbols-outlined booking__guest-quantity-adjust plus">
+                                                                add
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="booking__guest-item">
+                                                        <div class="booking__guest-name">Phòng</div>
+                                                        <div class="booking__guest-quantity">
+                                                            <span class="material-symbols-outlined booking__guest-quantity-adjust minus">
+                                                                remove
+                                                            </span>
+                                                            <div class="booking__guest-quantity-text">1</div>
+                                                            <span class="material-symbols-outlined booking__guest-quantity-adjust plus">
+                                                                add
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <button class="booking__btn">Đặt phòng</button>
+                                    </form>
+                                </div>
+                                <!-- inquiry -->
+                                <form class="booking__content" data-content="2">
+                                    <div class="booking__inquiry-wrap">
+                                        <label for="inquiry-name">Tên (*)</label>
+                                        <input type="text" id="inquiry-name" required>
+                                    </div>
+                                    <div class="booking__inquiry-wrap">
+                                        <label for="inquiry-email">Email (*)</label>
+                                        <input type="email" id="inquiry-email" required>
+                                    </div>
+                                    <div class="booking__inquiry-wrap">
+                                        <label for="inquiry-tel">Điện thoại</label>
+                                        <input type="tel" id="inquiry-tel">
+                                    </div>
+                                    <div class="booking__inquiry-wrap">
+                                        <label for="inquiry-note">Lời nhắn</label>
+                                        <textarea name="" id="inquiry-note"></textarea>
+                                    </div>
+                                    <button class="booking__btn">Gửi tin nhắn</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="hotel__map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.9956316283856!2d108.24714239398453!3d16.053707997670703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142177a5c9681ed%3A0x2d2f447313c82e78!2zMjcyIFbDtSBOZ3V5w6puIEdpw6FwLCBC4bqvYyBN4bu5IFBow7osIE5nxakgSMOgbmggU8ahbiwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1728492118473!5m2!1svi!2s" 
+                                allowfullscreen="" 
+                                loading="lazy">
+                            </iframe>
+                        </div>
+                        <div class="hotel__support">
+                                <img src="/assits/img/user/nhan-vien-tu van.jpg" class="hotel__support-img" alt="Nhân viên tư vấn">
+                                <div class="hotel__support-text">Đội ngũ tư vấn</div>
+                                <button class="hotel__support-btn">Liên hệ ngay</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- hotel other -->
+                <div class="hotel__other-options">
+                    <h3 class="info__title hotel__other-title">Khám phá các tùy chọn khác</h3>
+                    <div class="other-pagination">
+                        <div class="other-pagination-wrap">
+                            <div class="other-pagination-wrap-icon">
+                                <span class="material-symbols-outlined other-pagination-icon pagination-left" id="pagination-left">
+                                    arrow_back_ios
+                                </span>
+                            </div>
+                            <div class="other-pagination-wrap-icon">
+                                <span class="material-symbols-outlined other-pagination-icon pagination-right" id="pagination-right">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel__others row"></div>
+                    <div class="dot-container"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+         <footer class="footer" id="footer-placeholder"></footer>
+    </div>
+
+    <script src="/javascript/headerFooter.js" defer></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/services.js"></script>
+    <script src="/javascript/hotel-location.js" defer></script>
+
+    <!-- flatpickr -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr" defer></script>
+</body>
+
+</html>

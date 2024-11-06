@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-page="topLocation">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Điểm đến hàng đầu</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ba993b4f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assits/css/base.css">
+    <link rel="stylesheet" href="/assits/css/grid.css">
+    <link rel="stylesheet" href="/assits/css/main.css">
+    <link rel="stylesheet" href="/assits/css/top-location.css">
+    <link rel="stylesheet" href="/assits/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <div id="header-placeholder"></div>
+        <div class="container">
+            <div class="grid">
+                <div class="top-location__slider">
+                    <div class="top-location__slider-wrap"></div>
+                    <span class="material-symbols-outlined top-location__slider-icon top-location__slider-icon-left" id="top-prev">
+                        chevron_left
+                    </span>
+                    <span class="material-symbols-outlined top-location__slider-icon top-location__slider-icon-right" id="top-next">
+                        chevron_right
+                    </span>
+
+                    <div class="top-location__slider-pagination">
+                        <span class="current-img">1</span> / <span class="imgs">6</span>
+                    </div>
+                </div>
+            </div>
+            <div class="grid wide">
+                <div class="top-location__intro row">
+                    <div class="col l-8">
+                        <h2 class="top-location__intro-title">Đà Nẵng</h2>
+                        <p class="top-location__intro-content">
+                            Đà Nẵng là một thành phố năng động và hiện đại nằm ở miền Trung Việt Nam, nổi tiếng với
+                            những bãi biển tuyệt đẹp, cảnh quan thiên nhiên hùng vĩ và sự phát triển kinh tế nhanh
+                            chóng. Với vị trí chiến lược, Đà Nẵng đóng vai trò là cửa ngõ giao thương quan trọng, kết
+                            nối các di sản văn hóa thế giới như Hội An và Huế. Thành phố không chỉ thu hút du khách bởi
+                            các công trình kiến trúc độc đáo như Cầu Rồng, Bà Nà Hills mà còn bởi ẩm thực phong phú và
+                            con người thân thiện, hiếu khách.
+                        </p>
+                    </div>
+                    <div class="col l-4">
+                        <div class="top-location__intro-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d289190.5507809107!2d108.03242609077331!3d16.077774562923416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2zxJDDoCBO4bq1bmc!5e0!3m2!1svi!2s!4v1727421090357!5m2!1svi!2s"
+                                allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="top-location__services">
+                    <h3 class="content-header top-location__services-header">Đề xuất cho bạn</h3>
+                    <ul class="recommend__list-name">
+                        <li class="recommend__name">
+                            <button class="recommend__button" data-category="1">Khách
+                                sạn</button>
+                        </li>
+                        <li class="recommend__name">
+                            <button class="recommend__button" data-category="2">Tour</button>
+                        </li>
+                    </ul>
+                    <div class="top-location__services-list row" id="top-location__services-list"></div>
+                </div>
+                <div class="top-location__news">
+                    <h3 class="content-header top-location__news-header">Những câu chuyện, mẹo và hướng dẫn</h3>
+                    <div class="news__header-switch">
+                        <div class="news__header-switch-wrap">
+                            <span
+                                class="material-symbols-outlined news__header-switch-icon news__header-switch-icon--left" id="news-prev">
+                                arrow_back_ios
+                            </span>
+                            <span class="material-symbols-outlined news__header-switch-icon" id="news-next">
+                                arrow_forward_ios
+                            </span>
+                        </div>
+                    </div>
+                    <div class="news__list row" id="news__list"></div>
+                    <div class="dot-container"></div>
+                </div>
+                <!-- section subscribe -->
+                <div class="section-sub">
+                    <div class="sub__img">
+                        <img src="/assits/img/subscribe/Subscribe.png" alt="subscribe">
+                    </div>
+                    <div class="sub__content">
+                        <h3 class="content-header sub__header-text">Nhận các ưu đãi và nhiều hơn nữa từ Travel</h3>
+                        <div class="sub__sub-text">Đăng ký ngay để khám phá các ưu đãi giảm giá đặc biệt dành riêng
+                            cho
+                            bạn!</div>
+                        <form action="" class="form-sub">
+                            <input type="email" class="sub__input" placeholder="Nhập Email của bạn" required>
+                            <button class="sub__button">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+
+    <script src="/javascript/headerFooter.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/services.js"></script>
+    <script src="/javascript/news.js"></script>
+    <script src="/javascript/top-location.js"></script>
+</body>
+
+</html>

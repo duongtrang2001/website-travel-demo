@@ -1,0 +1,216 @@
+<header class="header" id="header-placeholder">
+    <div class="header__img-background"></div>
+    <div class="grid wide">
+        <nav class="header__navbar-container" id="header__navbar-container">
+            <div class="header__navbar">
+                <div class="navbar__menu-mobile">
+                    <button class="navbar__menu-mobile-btn">
+                        <span class="material-symbols-outlined navbar__button-icon--tm">
+                            menu
+                        </span>
+                    </button>
+                    <div class="navbar__menu-overlay hide">
+                        <ul class="navbar__menu-mobile-text">
+                            <span class="material-symbols-outlined navbar__menu--close">
+                                close
+                            </span>
+                            <li><a href="/index.html"
+                                    class="navbar__menu-mobile-link navbar__menu-link--active" data-pagination="1">Trang
+                                    chủ</a>
+                            </li>
+                            <li><a href="/hotel.html" class="navbar__menu-mobile-link"
+                                    data-pagination="2">Khách sạn</a>
+                            </li>
+                            <li><a href="/tour.html" class="navbar__menu-mobile-link"
+                                    data-pagination="3">Tour</a>
+                            </li>
+                            <li><a href="/blog.html" class="navbar__menu-mobile-link"
+                                    data-pagination="4">Bài viết</a>
+                            </li>
+                            <li><a href="/contact.html" class="navbar__menu-mobile-link"
+                                    data-pagination="5">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="/index.html" class="navbar-home">
+                    <img src="/assits/img/travel-logo.png" alt="logo" class="navbar__logo">
+                </a>
+                <ul class="navbar__menu">
+                    <li>
+                        <a href="/index.html" class="navbar__menu-item navbar__menu-item--active"
+                            data-pagination="1">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="/hotel.html" class="navbar__menu-item" data-pagination="2">Khách
+                            sạn</a>
+                    </li>
+                    <li>
+                        <a href="/tour.html" class="navbar__menu-item" data-pagination="3">Tour</a>
+                    </li>
+                    <li>
+                        <a href="/blog.html" class="navbar__menu-item" data-pagination="4">Bài
+                            viết</a>
+                    </li>
+                    <li>
+                        <a href="/contact.html" class="navbar__menu-item navbar__item--hidden"
+                            data-pagination="5">Liên
+                            hệ</a>
+                    </li>
+                    <div class="navbar__menu-item-line"></div>
+                </ul>
+
+                <div class="navbar__button">
+                    <button class="navbar__button-item" id="open-login">
+                        Đăng nhập
+                    </button>
+                    <button class="navbar__button-item" id="open-register">
+                        Đăng Ký
+                    </button>
+                </div>
+                <!-- user tablet / moblie -->
+                <div class="navbar__button" id="navbar__btn-tm">
+                    <span class="material-symbols-outlined navbar__button-icon--tm">
+                        person
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content"></div>
+        <div class="location__header"></div>
+        <!-- header search -->
+        <div class="header__search">
+            <form action="" class="header__search-form">
+                <div class="header__search-form-container">
+                    <div class="header__search-form-item">
+                        <span class="material-symbols-outlined header__search-input-icon">
+                            location_on
+                        </span>
+                        <div class="header__search-item-content">
+                            <label for="location">Địa điểm</label>
+                            <input type="text" id="location" placeholder="Bạn muốn đến đâu?" required>
+                        </div>
+                    </div>
+                    <div class="header__search-form-item header__search-form-item-date">
+                        <div class="header__search-form-item-wrap">
+                            <span class="material-symbols-outlined header__search-input-icon">
+                                calendar_add_on
+                            </span>
+                            <div class="header__search-item-content">
+                                <label for="check-in">Ngày đi</label>
+                                <input type="text" class="selector" id="check-in" placeholder="Chọn ngày" required>
+                            </div>
+                        </div>
+                        <div
+                            class="material-symbols-outlined header__search-input-icon header__search-input-icon-arrow">
+                            arrow_forward
+                        </div>
+                        <div class="header__search-form-item-wrap">
+                            <span class="material-symbols-outlined header__search-input-icon">
+                                calendar_apps_script
+                            </span>
+                            <div class="header__search-item-content">
+                                <label for="check-out">Ngày về</label>
+                                <input type="text" class="selector" id="check-out" placeholder="Chọn ngày" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header__search-form-item">
+                        <span class="material-symbols-outlined header__search-input-icon">
+                            group
+                        </span>
+                        <div class="header__search-item-content">
+                            <label for="guests">Hành khách</label>
+                            <input type="text" id="guests" placeholder="1 khách" required>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="header__search-btn">
+                    <span class="material-symbols-outlined header__search-input-icon header__search-button-icon">
+                        search
+                    </span>
+                    <span class="header__search-btn-text">Tìm kiếm</span>
+                </button>
+            </form>
+        </div>
+    </div>
+    <!-- form Register/ login -->
+    <div class="form-overlay">
+        <div class="auth-form">
+            <div class="auth-form__header">
+                <span class="material-symbols-outlined auth-form__header-icon" id="auth-form__header-icon">
+                    close
+                </span>
+                <div class="auth-form__header-text">
+                    <span class="auth-form__header-name auth-form__header-name--active">Đăng nhập</span>
+                    <span class="auth-form__header-name">Đăng ký</span>
+                    <div class="auth-form__line"></div>
+                </div>
+            </div>
+            <!-- form login -->
+            <form class="auth-form__body form-login auth-form__body--active">
+                <h2 class="auth-form__body-text">Đăng nhập tài khoản của bạn</h2>
+                <input class="auth-form__body-input" type="text" placeholder="Email hoặc tên người dùng" required>
+                <div class="auth-form__body-wrap">
+                    <input class="auth-form__body-input password-input" type="text" placeholder="Mật khẩu" required>
+                    <!-- input-password--active -->
+                    <span
+                        class="material-symbols-outlined input-password-icon show-password-icon input-password--hidden">
+                        visibility
+                    </span>
+                    <!-- input-pasword--hidden -->
+                    <span class="material-symbols-outlined input-password-icon hide-password-icon">
+                        visibility_off
+                    </span>
+                </div>
+                <button class="auth-form__button">Đăng nhập</button>
+                <div class="auth-form__footer">
+                    <label for="form-checkbox">
+                        <input type="checkbox" class="form-checkbox" id="form-checkbox">
+                        Nhớ đăng nhập
+                    </label>
+                    <a href="#" class="auth-form__forgot">Quên mật khẩu?</a>
+                </div>
+            </form>
+            <!-- form Register -->
+            <form class="auth-form__body form-register">
+                <h2 class="auth-form__body-text">Tạo tài khoản</h2>
+                <input class="auth-form__body-input" type="text" placeholder="Tên người dùng *" required>
+                <input class="auth-form__body-input" type="text" placeholder="Họ và tên">
+                <input class="auth-form__body-input" type="email" placeholder="Email *" required>
+                <div class="auth-form__body-wrap">
+                    <input class="auth-form__body-input password-input" type="text" placeholder="Mật khẩu *" required>
+                    <!-- input-password--active -->
+                    <span
+                        class="material-symbols-outlined input-password-icon show-password-icon input-password--hidden">
+                        visibility
+                    </span>
+                    <!-- input-pasword--hidden -->
+                    <span class="material-symbols-outlined input-password-icon hide-password-icon">
+                        visibility_off
+                    </span>
+                </div>
+                <div class="auth-form__select-user">
+                    <label>
+                        <input type="radio" name="select user" value="normal user">
+                        Người dùng
+                    </label>
+                    <label>
+                        <input type="radio" name="select user" value="partner user">
+                        Đối tác
+                    </label>
+                </div>
+                <label for="auth-form__input-confirm" class="auth-form__confirm">
+                    <input type="checkbox" id="auth-form__input-confirm" class="auth-form__input-confirm">
+                    <div class="auth-form__input-confirm-wrap">
+                        Tôi xác nhận rằng tôi đã đọc và đồng ý với <a href="#" class="auth-form__confirm-policy">chính
+                            sách bảo mật</a>.
+                    </div>
+                </label>
+                <button class="auth-form__button">Register</button>
+            </form>
+        </div>
+    </div>
+</header>

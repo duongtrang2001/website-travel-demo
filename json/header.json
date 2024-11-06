@@ -1,0 +1,49 @@
+{
+    "index": {
+        "image": "/assits/img/background-header-home.png",
+        "alt": "travel-header-background",
+        "text": "Hãy để cuộc hành trình bắt đầu",
+        "subText": "Tận hưởng với giá tốt nhất cho hơn 20.000.000+ chỗ nghỉ trên khắp Việt Nam"
+    },
+    "hotel": {
+        "image": "/assits/img/hotel-page/backgroud-header.jpg",
+        "alt": "hotel header background",
+        "text": "Khám phá điểm dừng chân tiếp theo của bạn",
+        "subText": "Tận hưởng với giá tốt nhất cho hơn 20.000.000+ chỗ nghỉ trên khắp Việt Nam"
+    },
+    "tour": {
+        "image": "/assits/img/tour-page/background-header-tour.jpeg",
+        "alt": "travel-header-background",
+        "text": "Tìm niềm vui ở mọi lúc, mọi nơi",
+        "subText": "Tìm thấy điều khiến bạn hạnh phúc, mọi lúc, mọi nơi trên hành trình khám phá Việt Nam"
+    },
+    "topLocation": {
+        "image": "/assits/img/top-location-page/background-header-top-location.jpeg",
+        "alt": "background header top location travel",
+        "locationHref": "/index.html#section-top-location",
+        "locationBreadcrumbName": "Điểm đến hàng đầu"
+    },
+    "hotelLocation": {
+        "image": "/assits/img/hotel/hotel-location/background-header-hotel-location.jpeg",
+        "alt": "background header hotel location travel",
+        "locationHref": "/hotel.html",
+        "locationBreadcrumbName": "Khách sạn"
+    },
+    "tourLocation": {
+        "image": "/assits/img/tour/tour-location/background-header-tour.png",
+        "alt": "background header tour location travel",
+        "locationHref": "/tour.html",
+        "locationBreadcrumbName": "Tour du lịch"
+    },
+    "article": {
+        "image": "/assits/img/blog-page/blog/du-lich-Ha-Noi.jpg",
+        "locationHref": "/blog.html",
+        "locationBreadcrumbName": "Bài viết"
+    },
+    "blog": {
+
+    },
+    "contact": {
+        
+    }
+}

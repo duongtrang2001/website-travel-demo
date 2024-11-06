@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en" data-page="tourLocation">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Location - Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ba993b4f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assits/css/base.css">
+    <link rel="stylesheet" href="/assits/css/grid.css">
+    <link rel="stylesheet" href="/assits/css/main.css">
+    <link rel="stylesheet" href="/assits/css/tour-location.css">
+    <link rel="stylesheet" href="/assits/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/Default.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- header -->
+        <header class="header" id="header-placeholder"></header>
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="tour__intro">
+                    <div class="tour__intro-review">
+                        <i class="fa-solid fa-star tour__intro-review-icon"></i>
+                        <span class="tour__intro-review-text">5</span>
+                        <span class="tour__intro-review-quantity">(3 đánh giá)</span>
+                        <span class="tour__intro-review-location">Đà Nẵng</span>
+                    </div>
+                    <div class="tour__intro-interact">
+                        <div class="tour__intro-interact-share-wrap">
+                            <span
+                                class="material-symbols-outlined tour__intro-interact-icon tour__intro-interact-icon-share">
+                                share
+                            </span>
+                            <div class="tour__intro-interact-social">
+                                <span class="tour__intro-interact-social-wrap">
+                                    <i class="fa-brands fa-facebook-f tour__intro-interact-social-icon"></i>
+                                </span>
+                                <div class="tour__intro-interact-social-wrap">
+                                    <i class="fa-brands fa-twitter tour__intro-interact-social-icon"></i>
+                                </div>
+                                <div class="tour__intro-interact-social-wrap">
+                                    <i class="fa-brands fa-pinterest-p tour__intro-interact-social-icon"></i>
+                                </div>
+                                <div class="tour__intro-interact-social-wrap">
+                                    <i class="fa-brands fa-linkedin-in tour__intro-interact-social-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__intro-interact-icon-wrap">
+                            <i class="fa-regular fa-heart tour__intro-interact-icon tour__intro-interact-icon-favorite"></i>
+                            <i class="fa-solid fa-heart tour__intro-interact-icon tour__intro-interact-icon-favorite checked hidden"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour__imgs">
+                    <div class="row"></div>
+                </div>
+                <div class="tour__wrap row">
+                    <div class="tour__container-wrap col l-8 m-12 c-12">
+                        <div class="tour__intro tour__section">
+                            <div class="tour__intro-item">
+                                <span class="material-symbols-outlined tour__intro-item-icon">
+                                    schedule
+                                </span>
+                                <div class="tour__intro-item-contain">
+                                    <span class="tour__intro-item-text">Thời gian</span>
+                                    <span class="tour__intro-item-info time">32 giờ</span>
+                                </div>
+                            </div>
+                            <div class="tour__intro-item">
+                                <span class="material-symbols-outlined tour__intro-item-icon">
+                                    footprint
+                                </span>
+                                <div class="tour__intro-item-contain">
+                                    <span class="tour__intro-item-text">Loại tour</span>
+                                    <span class="tour__intro-item-info type">2 ngày 1 đêm</span>
+                                </div>
+                            </div>
+                            <div class="tour__intro-item">
+                                <span class="material-symbols-outlined tour__intro-item-icon">
+                                    group
+                                </span>
+                                <div class="tour__intro-item-contain">
+                                    <span class="tour__intro-item-text">Nhóm</span>
+                                    <span class="tour__intro-item-info group">10 người</span>
+                                </div>
+                            </div>
+                            <div class="tour__intro-item">
+                                <span class="material-symbols-outlined tour__intro-item-icon">
+                                    translate
+                                </span>
+                                <div class="tour__intro-item-contain">
+                                    <span class="tour__intro-item-text">Ngôn ngữ</span>
+                                    <span class="tour__intro-item-info language">Tiếng Việt, Tiếng Anh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__about tour__section">
+                            <h3 class="tour__title">Giới thiệu chuyến đi</h3>
+                            <p class="tour__content">
+                                Khám phá thành phố Đà Nẵng - một trong những điểm đến nổi bật nhất của miền Trung Việt
+                                Nam với bãi biển tuyệt đẹp, ngọn núi hùng vĩ, và nền văn hóa đặc sắc. Trong 32 giờ, bạn
+                                sẽ được trải nghiệm những địa danh nổi bật, thưởng thức ẩm thực địa phương, cùng khám
+                                phá nét văn hóa của thành phố biển xinh đẹp này.
+                            </p>
+                            <h3 class="tour__title">Địa điểm nổi bật</h3>
+                            <div class="tour__highlights">
+                                <div class="tour__content-wrap">
+                                    <span class="material-symbols-outlined content-icon content-icon-check">
+                                        check
+                                    </span>
+                                    <p class="tour__content-text">
+                                        Bán đảo Sơn Trà
+                                    </p>
+                                </div>
+                                <div class="tour__content-wrap">
+                                    <span class="material-symbols-outlined content-icon content-icon-check">
+                                        check
+                                    </span>
+                                    <p class="tour__content-text">
+                                        Bà Nà Hills
+                                    </p>
+                                </div>
+                                <div class="tour__content-wrap">
+                                    <span class="material-symbols-outlined content-icon content-icon-check">
+                                        check
+                                    </span>
+                                    <p class="tour__content-text">
+                                        Biển Mỹ Khê
+                                    </p>
+                                </div>
+                                <div class="tour__content-wrap">
+                                    <span class="material-symbols-outlined content-icon content-icon-check">
+                                        check
+                                    </span>
+                                    <p class="tour__content-text">
+                                        Ngũ Hành Sơn
+                                    </p>
+                                </div>
+                                <div class="tour__content-wrap">
+                                    <span class="material-symbols-outlined content-icon content-icon-check">
+                                        check
+                                    </span>
+                                    <p class="tour__content-text">
+                                        Cầu Rồng và Cầu Tình Yêu
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__utilities tour__section">
+                            <h3 class="tour__title">Tour bao gồm /không bao gồm</h3>
+                            <div class="tour__utilities-contain row">
+                                <div class="col l-6 tour__utilities-included">
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Xe đưa đón từ khách sạn hoặc điểm hẹn
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Hướng dẫn viên chuyên nghiệp
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Phí tham quan các điểm đến
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            1 bữa sáng, 2 bữa trưa, 1 bữa tối
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Vé cáp treo Bà nà Hills
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Phòng khách sạn 4 sao (1 đêm)
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-check">
+                                            check
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Nước uống và khăn lạnh suốt hành trình
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col l-6 tour__utilities-excluded">
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-remove">
+                                            close
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Chi phí cá nhân (mua sắm, đồ uống ngoài)
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-remove">
+                                            close
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Chi phí tham gia các hoạt động tự chọn như thể thao dưới nước
+                                        </p>
+                                    </div>
+                                    <div class="tour__content-wrap">
+                                        <span class="material-symbols-outlined content-icon content-icon-remove">
+                                            close
+                                        </span>
+                                        <p class="tour__content-text">
+                                            Tiền tip cho hướng dẫn viên và tài xế (tự nguyện)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Lịch trình -->
+                        <div class="tour__itinerary tour__section">
+                            <h3 class="tour__title">Lịch trình</h3>
+                            <div class="tour__itinerary-wrap">
+                                <div class="tour__itinerary-container">
+                                    <div class="tour__itinerary-day">
+                                        <span class="material-symbols-outlined tour__itinerary-day-icon">
+                                            today
+                                        </span>
+                                        Ngày 1
+                                    </div>
+                                    <div class="tour__itinerary-list">
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                schedule
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">8:00 - 9:00</span>
+                                                <h4 class="tour__itinerary-item-title">Đón khách và khởi hành</h4>
+                                                <p class="tour__itinerary-item-text">Đón khách tại khách sạn hoặc điểm hẹn, bắt
+                                                    đầu chuyến đi đến Bán đảo Sơn Trà.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">9:00 - 11:00</span>
+                                                <h4 class="tour__itinerary-item-title">Tham quan Chùa Linh Ứng</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                restaurant
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">11:30 - 13:00</span>
+                                                <h4 class="tour__itinerary-item-title">Dùng bữa trưa tại nhà hàng</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">13:00 - 16:00</span>
+                                                <h4 class="tour__itinerary-item-title">
+                                                    Tham quan Bà Nà Hills
+                                                </h4>
+                                                <p class="tour__itinerary-item-text">Trải nghiệm cáp
+                                                    treo và tham quan các địa điểm nổi bật tại đây.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                apartment
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">16:00 - 17:00</span>
+                                                <h4 class="tour__itinerary-item-title">
+                                                    Check-in khách sạn
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                restaurant
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">18:30 - 20:00</span>
+                                                <h4 class="tour__itinerary-item-title">
+                                                    Dùng bữa tối
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">20:00 - 21:00</span>
+                                                <h4 class="tour__itinerary-item-title">
+                                                    Tham quan Cầu Rồng và Cầu Tình Yêu về đêm
+                                                </h4>
+                                                <p class="tour__itinerary-item-text">Cơ hội chiêm ngưỡng màn phun lửa và nước (nếu trùng vào thứ 7 hoặc chủ nhật).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tour__itinerary-container">
+                                    <div class="tour__itinerary-day">
+                                        <span class="material-symbols-outlined tour__itinerary-day-icon">
+                                            today
+                                        </span>
+                                        Ngày 2
+                                    </div>
+                                    <div class="tour__itinerary-list">
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                restaurant
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">7:30 - 8:30</span>
+                                                <h4 class="tour__itinerary-item-title">Dùng bữa sáng tại khách sạn</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">8:30 - 10:30</span>
+                                                <h4 class="tour__itinerary-item-title">Tham quan Ngũ Hành Sơn</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">11:00 - 12:30</span>
+                                                <h4 class="tour__itinerary-item-title">Tắm biển Mỹ Khê</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                restaurant
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">12:30 - 13:30</span>
+                                                <h4 class="tour__itinerary-item-title">Dùng bữa trưa</h4>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                location_on
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">14:00 - 15:00</span>
+                                                <h4 class="tour__itinerary-item-title">Tự do tham quan</h4>
+                                                <p class="tour__itinerary-item-text">Tự do tham quan và mua sắm quà lưu niệm tại
+                                                    chợ Cồn hoặc Vincom Plaza.</p>
+                                            </div>
+                                        </div>
+                                        <div class="tour__itinerary-item">
+                                            <span class="material-symbols-outlined tour__itinerary-item-icon">
+                                                home_pin
+                                            </span>
+                                            <div class="tour__itinerary-item-wrap">
+                                                <span class="tour__itinerary-item-time">15:30 - 16:00</span>
+                                                <h4 class="tour__itinerary-item-title">Kết thúc tour</h4>
+                                                <p class="tour__itinerary-item-text">Trả khách tại điểm
+                                                    hẹn.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                        <!-- Những câu hỏi thường gặp -->
+                        <div class="tour__faq tour__section">
+                            <h3 class="tour__title">Câu hỏi thường gặp</h3>
+                            <div class="tour__faq-item">
+                                <div class="tour__faq-header">
+                                    <span class="material-symbols-outlined tour__faq-header-icon">
+                                    live_help
+                                    </span>
+                                    <span class="tour__faq-question">
+                                        Tour bao gồm những dịch vụ gì?
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-minus">
+                                        remove
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-add">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="tour__faq-answer-wrap">
+                                    <p class="tour__faq-answer">
+                                        Tour thường bao gồm xe đưa đón, vé tham quan, hướng dẫn viên, các bữa ăn (tùy theo lịch trình). Một số tour còn bao gồm khách sạn, bảo hiểm du lịch và các hoạt động phụ trợ khác. Bạn nên kiểm tra chi tiết tour trước khi đặt để biết rõ những dịch vụ bao gồm.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour__faq-item">
+                                <div class="tour__faq-header">
+                                    <span class="material-symbols-outlined tour__faq-header-icon">
+                                    live_help
+                                    </span>
+                                    <span class="tour__faq-question">
+                                        Giá tour có phát sinh thêm chi phí nào không?
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-minus">
+                                        remove
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-add">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="tour__faq-answer-wrap">
+                                    <p class="tour__faq-answer">
+                                        Hầu hết các tour đều đã bao gồm chi phí dịch vụ cơ bản. Tuy nhiên, một số tour không bao gồm chi phí cá nhân, nước uống, hoặc những hoạt động phát sinh thêm ngoài chương trình. Hãy hỏi rõ trước khi tham gia để tránh bất ngờ về chi phí.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour__faq-item">
+                                <div class="tour__faq-header">
+                                    <span class="material-symbols-outlined tour__faq-header-icon">
+                                    live_help
+                                    </span>
+                                    <span class="tour__faq-question">
+                                        Có thể hủy hoặc thay đổi lịch trình tour không?
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-minus">
+                                        remove
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-add">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="tour__faq-answer-wrap">
+                                    <p class="tour__faq-answer">
+                                        Việc hủy hoặc thay đổi lịch trình có thể được chấp nhận, nhưng sẽ tùy thuộc vào chính sách của công ty lữ hành. Đôi khi có phí hủy hoặc thay đổi nếu không báo trước đủ thời gian, thường là 3-7 ngày trước khi khởi hành.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour__faq-item">
+                                <div class="tour__faq-header">
+                                    <span class="material-symbols-outlined tour__faq-header-icon">
+                                    live_help
+                                    </span>
+                                    <span class="tour__faq-question">
+                                        Nếu thời tiết xấu thì tour có diễn ra không?
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-minus">
+                                        remove
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-add">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="tour__faq-answer-wrap">
+                                    <p class="tour__faq-answer">
+                                        Trong trường hợp thời tiết xấu, tour có thể bị hoãn hoặc điều chỉnh để đảm bảo an toàn. Khách sẽ được thông báo kịp thời và có thể chọn hoãn hoặc hoàn lại tiền theo chính sách của công ty.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tour__faq-item">
+                                <div class="tour__faq-header">
+                                    <span class="material-symbols-outlined tour__faq-header-icon">
+                                    live_help
+                                    </span>
+                                    <span class="tour__faq-question">
+                                        Làm sao để liên hệ với công ty trong suốt chuyến đi?
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-minus">
+                                        remove
+                                    </span>
+                                    <span class="material-symbols-outlined tour__faq-icon tour__faq-icon-add">
+                                        add
+                                    </span>
+                                </div>
+                                <div class="tour__faq-answer-wrap">
+                                    <p class="tour__faq-answer">
+                                        Thường công ty sẽ cung cấp số hotline hỗ trợ 24/7 hoặc thông tin của người phụ trách đoàn để bạn có thể liên hệ khi cần thiết trong chuyến đi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tour__location tour__section">
+                            <h3 class="tour__title">Địa điểm tour</h3>
+                            <div class="tour__location-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245374.45606548674!2d108.07862854999999!3d16.066741599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2zxJDDoCBO4bq1bmc!5e0!3m2!1svi!2s!4v1729098227333!5m2!1svi!2s"
+                                    allowfullscreen="" 
+                                    loading="lazy">
+                                </iframe>
+                            </div>
+                        </div>
+                        <!-- reviews -->
+                        <div class="tour__reviews">
+                            <h3 class="tour__title">Đánh giá</h3>
+                            <div class="tour__reviews-container">
+                                <div class="tour__review-overview">
+                                    <div class="tour__review-overview-wrap">
+                                        <i class="fa-solid fa-star tour__review-overview-icon"></i>
+                                        <span class="tour__review-overview-poin">5/5</span>
+                                    </div>
+                                    <div class="tour__review-overview-text">Rất tốt</div>
+                                    <div class="tour__review-overview-quantity">(5 đánh giá)</div>
+                                </div>
+                                <div class="tour__review-level">
+                                    <div class="tour__review-level-wrap">
+                                        <span class="tour__review-level-text">Xuất sắc</span>
+                                        <div class="tour__review-level-line-wrap">
+                                            <div class="tour__review-level-line tour__review-level-line-default"></div>
+                                            <div class="tour__review-level-line tour__review-level-current"></div>
+                                        </div>
+                                        <span class="tour__review-level-poin">3</span>
+                                    </div>
+                                    <div class="tour__review-level-wrap">
+                                        <span class="tour__review-level-text">Rất tốt</span>
+                                        <div class="tour__review-level-line-wrap">
+                                            <div class="tour__review-level-line tour__review-level-line-default"></div>
+                                            <div class="tour__review-level-line tour__review-level-current"></div>
+                                        </div>
+                                        <span class="tour__review-level-poin">2</span>
+                                    </div>
+                                    <div class="tour__review-level-wrap">
+                                        <span class="tour__review-level-text">Trung bình</span>
+                                        <div class="tour__review-level-line-wrap">
+                                            <div class="tour__review-level-line tour__review-level-line-default"></div>
+                                            <div class="tour__review-level-line tour__review-level-current"></div>
+                                        </div>
+                                        <span class="tour__review-level-poin">0</span>
+                                    </div>
+                                    <div class="tour__review-level-wrap">
+                                        <span class="tour__review-level-text">Không tốt</span>
+                                        <div class="tour__review-level-line-wrap">
+                                            <div class="tour__review-level-line tour__review-level-line-default"></div>
+                                            <div class="tour__review-level-line tour__review-level-current"></div>
+                                        </div>
+                                        <span class="tour__review-level-poin">0</span>
+                                    </div>
+                                    <div class="tour__review-level-wrap">
+                                        <span class="tour__review-level-text">Rất không tốt</span>
+                                        <div class="tour__review-level-line-wrap">
+                                            <div class="tour__review-level-line tour__review-level-line-default"></div>
+                                            <div class="tour__review-level-line tour__review-level-current"></div>
+                                        </div>
+                                        <span class="tour__review-level-poin">0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- comment -->
+                    </div>
+                    <div class="col l-4 m-12 c-12">
+                        <div class="tour__aside">
+                            <div class="tour__aside-booking">
+                                <div class="tour__aside-overview">
+                                    <div class="tour__aside-price">Giá từ: <span class="money"></span> <span>VND</span></div>
+                                    <div class="tour__aside-review">
+                                        <i class="fa-solid fa-star tour__aside-review-icon"></i>
+                                        <span class="tour__aside-review-text">5</span>
+                                    </div>
+                                </div>
+                                <form class="tour__aside-booking-form">
+                                    <div class="tour__aside-booking-container">
+                                        <div class="tour__aside-booking-wrap tour__aside-booking-date">
+                                            <label for="booking-date">Date</label>
+                                            <input type="text" class="selector" placeholder="Chọn ngày" id="booking-date">
+                                        </div>
+                                        <div class="tour__aside-booking-wrap tour__aside-booking-ticket">
+                                            <div class="tour__aside-booking-type">
+                                                <div class="tour__aside-booking-info">
+                                                    <label for="adults">Người lớn</label>
+                                                    <input type="text" placeholder="Trên 18 tuổi" id="adults">
+                                                </div>
+                                                <div class="tour__aside-booking-quantity">
+                                                    <span class="material-symbols-outlined tour__aside-booking-quantity-icon minus">
+                                                        remove
+                                                    </span>
+                                                    <span class="tour__aside-booking-quantity-number">0</span>
+                                                    <span class="material-symbols-outlined tour__aside-booking-quantity-icon plus">
+                                                        add
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="tour__aside-booking-info-price adults">Giá vé: <span class="money"></span> VND</div>
+                                        </div>
+                                        <div class="tour__aside-booking-wrap tour__aside-booking-ticket">
+                                            <div class="tour__aside-booking-type">
+                                                <div class="tour__aside-booking-info">
+                                                    <label for="children">Trẻ em</label>
+                                                    <input type="text" placeholder="Dưới 12 tuổi" id="children">
+                                                </div>
+                                                <div class="tour__aside-booking-quantity">
+                                                    <span class="material-symbols-outlined tour__aside-booking-quantity-icon minus">
+                                                        remove
+                                                    </span>
+                                                    <span class="tour__aside-booking-quantity-number">0</span>
+                                                    <span class="material-symbols-outlined tour__aside-booking-quantity-icon plus">
+                                                        add
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="tour__aside-booking-info-price children">Giá vé: <span class="money"></span> VND</div>
+                                        </div>
+                                    </div>
+                                    <div class="tour__booking-total">
+                                        <div class="tour__booking-total-text">Total</div>
+                                        <div class="tour__booking-total-price"><span class="money">1500000</span> VND</div>
+                                    </div>
+                                    <button class="tour__aside-booking-btn">Đặt vé</button>
+                                </form>
+                                
+                            </div>
+                            <!-- support -->
+                            <div class="tour__support">
+                                <img src="/assits/img/user/nhan-vien-tu van.jpg" class="tour__support-img" alt="Nhân viên tư vấn">
+                                <div class="tour__support-text">Đội ngũ tư vấn</div>
+                                <button class="tour__support-btn">Liên hệ ngay</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- footer -->
+         <footer class="footer" id="footer-placeholder"></footer>
+    </div>
+
+    <script src="/javascript/headerFooter.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/tour-location.js"></script>
+
+    <!-- flatpickr -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr" defer></script>
+</body>
+
+</html>

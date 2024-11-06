@@ -1,0 +1,600 @@
+[
+    {
+        "id": 1,
+        "name": "Tour Hạ Long 1 ngày",
+        "location": "Quảng Ninh",
+        "images": [
+            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-1.jpg",
+            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-2.jpg",
+            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-3.jpg",
+            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-4.jpg",
+            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-5.jpg"
+        ],
+        "time": "10 giờ",
+        "typeTour": "1 ngày",
+        "group": "10 người",
+        "language": "Tiếng Việt, Tiếng Anh",
+        "adultFare": "900.000",
+        "childFare": "500.000",
+        "tourIntro": "Vịnh Hạ Long – di sản thiên nhiên thế giới được UNESCO công nhận – với vẻ đẹp kỳ vĩ của hàng ngàn đảo đá vôi và những bãi biển hoang sơ, là điểm đến không thể bỏ qua. Chuyến đi 1 ngày của chúng tôi sẽ đưa bạn trải nghiệm không gian xanh mát của biển, tìm hiểu những hang động huyền bí và chiêm ngưỡng cảnh sắc ngoạn mục chỉ có tại vùng vịnh này.",
+        "tourMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d359240.04982462304!2d107.01894617269092!3d20.83008264873192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314a5796518cee87%3A0x55c6b0bcc85478db!2zVuG7i25oIEjhuqEgTG9uZw!5e0!3m2!1svi!2s!4v1730282574947!5m2!1svi!2s",
+        "tourHighlights": [
+            "Du ngoạn trên du thuyền",
+            "Khám phá Hang Sửng Sốt",
+            "Tham quan đảo Ti Tốp",
+            "Chèo thuyền Kayak"
+        ],
+        "tourIncludes": [
+            "Xe đưa đón tại điểm hẹn và ngược lại.",
+            "Bữa trưa trên du thuyền với các món ăn địa phương.",
+            "Vé tham quan các điểm đến trong hành trình.",
+            "Hướng dẫn viên chuyên nghiệp.",
+            "Nước uống trên tàu.",
+            "Trang bị kayak (cho ai chọn tham gia hoạt động này)."
+        ],
+        "tourNotIncluded": [
+            "Chi phí cá nhân.",
+            "Tiền tips cho hướng dẫn viên và lái xe (không bắt buộc).",
+            "Các dịch vụ ngoài chương trình."
+        ],
+        "tourSchedule": [
+            {
+                "day": "Ngày 1",
+                "schedule": [
+                    {
+                        "time": "8:00",
+                        "icon": "schedule",
+                        "title": "Đón khách tại điểm hẹn, khởi hành từ Hà Nội đi Hạ Long.",
+                        "description": "thời gian di chuyển khoảng 2 tiếng"
+                    },
+                    {
+                        "time": "10:30",
+                        "icon": "location_on",
+                        "title": "Đến bến tàu",
+                        "description": "Lên du thuyền bắt đầu hành trình khám phá vịnh Hạ Long"
+                    },
+                    {
+                        "time": "11:00",
+                        "icon": "location_on",
+                        "title": "Du ngoạn trên vịnh",
+                        "description": "Tham quan cảnh đẹp ngoạn mục của các đảo đá như Đỉnh Hương, Chó Đá, Gà Chọi."
+                    },
+                    {
+                        "time": "12:00",
+                        "icon": "apartment",
+                        "title": "Dùng bữa trưa",
+                        "description": "Các món ăn đặc sản biển"
+                    },
+                    {
+                        "time": "13:30",
+                        "icon": "location_on",
+                        "title": "Tham quan Hang Sửng Sốt",
+                        "description": "Chiêm ngưỡng các khối nhũ đá hình thù độc đáo"
+                    },
+                    {
+                        "time": "14:30",
+                        "icon": "location_on",
+                        "title": "Tham quan đảo Ti Tốp",
+                        "description": "Tự do leo lên đỉnh núi ngắm cảnh và tắm biển."
+                    },
+                    {
+                        "time": "16:00",
+                        "icon": "location_on",
+                        "title": "chèo thuyền kayak quanh các hang động nhỏ",
+                        "description": ""
+                    },
+                    {
+                        "time": "18:00",
+                        "icon": "home_pin",
+                        "title": "Quay về bến, kết thúc hành trình",
+                        "description": "Xe đưa đón sẽ trả khách đúng điểm hẹn"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Tour Đà Nẵng 2 ngày 1 đêm",
+        "location": "Đà Nẵng",
+        "images": [
+            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-1.png",
+            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-2.jpeg",
+            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-3.jpg",
+            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-4.jpg",
+            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-5.jpg"
+        ],
+        "time": "32 giờ",
+        "typeTour": "2 ngày 1 đêm",
+        "group": "10 người",
+        "language": "Tiếng Việt, Tiếng Anh",
+        "adultFare": "1.500.000",
+        "childFare": "600.000",
+        "tourIntro": "Khám phá thành phố Đà Nẵng - một trong những điểm đến nổi bật nhất của miền Trung Việt Nam với bãi biển tuyệt đẹp, ngọn núi hùng vĩ, và nền văn hóa đặc sắc. Trong 32 giờ, bạn sẽ được trải nghiệm những địa danh nổi bật, thưởng thức ẩm thực địa phương, cùng khám phá nét văn hóa của thành phố biển xinh đẹp này.",
+        "tourHighlights": [
+            "Bán đảo Sơn Trà",
+            "Bà Nà Hills",
+            "Biển Mỹ Khê",
+            "Ngũ Hành Sơn",
+            "Cầu Rồng và Cầu Tình Yêu"
+        ],
+        "tourIncludes": [
+            "Xe đưa đón từ khách sạn hoặc điểm hẹn",
+            "Hướng dẫn viên chuyên nghiệp",
+            "Phí tham quan các điểm đến",
+            "1 bữa sáng, 2 bữa trưa, 1 bữa tối",
+            "Vé cáp treo Bà Nà Hills",
+            "Phòng khách sạn 4 sao (1 đêm)",
+            "Nước uống và khăn lạnh suốt hành trình"
+        ],
+        "tourNotIncluded": [
+            "Chi phí cá nhân (mua sắm, đồ uống ngoài)",
+            "Chi phí tham gia các hoạt động tự chọn như thể thao dưới nước",
+            "Tiền tip cho hướng dẫn viên và tài xế (tự nguyện)"
+        ],
+        "tourSchedule": [
+            {
+                "day": "Ngày 1",
+                "schedule": [
+                    {
+                        "time": "8:00 - 9:00",
+                        "icon": "schedule",
+                        "title": "Đón khách và khởi hành",
+                        "description": "Đón khách tại khách sạn hoặc điểm hẹn, bắt đầu chuyến đi đến Bán đảo Sơn Trà."
+                    },
+                    {
+                        "time": "9:00 - 11:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Chùa Linh Ứng",
+                        "description": ""
+                    },
+                    {
+                        "time": "11:30 - 13:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa tại nhà hàng",
+                        "description": ""
+                    },
+                    {
+                        "time": "13:00 - 16:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Bà Nà Hills",
+                        "description": "Trải nghiệm cáp treo và tham quan các địa điểm nổi bật tại đây."
+                    },
+                    {
+                        "time": "16:00 - 17:00",
+                        "icon": "apartment",
+                        "title": "Check-in khách sạn",
+                        "description": ""
+                    },
+                    {
+                        "time": "18:30 - 20:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa tối",
+                        "description": ""
+                    },
+                    {
+                        "time": "20:00 - 21:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Cầu Rồng và Cầu Tình Yêu về đêm",
+                        "description": "Cơ hội chiêm ngưỡng màn phun lửa và nước (nếu trùng vào thứ 7 hoặc chủ nhật)."
+                    }
+                ]
+            },
+            {
+                "day": "Ngày 2",
+                "schedule": [
+                    {
+                        "time": "7:30 - 8:30",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa sáng tại khách sạn",
+                        "description": ""
+                    },
+                    {
+                        "time": "8:30 - 10:30",
+                        "icon": "location_on",
+                        "title": "Tham quan Ngũ Hành Sơn",
+                        "description": ""
+                    },
+                    {
+                        "time": "11:00 - 12:30",
+                        "icon": "location_on",
+                        "title": "Tắm biển Mỹ Khê",
+                        "description": ""
+                    },
+                    {
+                        "time": "12:30 - 13:30",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa",
+                        "description": ""
+                    },
+                    {
+                        "time": "14:00 - 15:00",
+                        "icon": "location_on",
+                        "title": "Tự do tham quan",
+                        "description": "Tự do tham quan và mua sắm quà lưu niệm tại chợ Cồn hoặc Vincom Plaza."
+                    },
+                    {
+                        "time": "15:30 - 16:00",
+                        "icon": "home_pin",
+                        "title": "Kết thúc tour",
+                        "description": "Trả khách tại điểm hẹn."
+                    }
+                ]
+            }
+        ],
+        "tourMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245374.45606548674!2d108.07862854999999!3d16.066741599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0x1df0cb4b86727e06!2zxJDDoCBO4bq1bmc!5e0!3m2!1svi!2s!4v1730193752410!5m2!1svi!2s"
+    },
+    {
+        "id": 3,
+        "name": "Tour Hội An 1 ngày",
+        "location": "Quảng Nam",
+        "images": [
+            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-1.jpg",
+            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-2.png",
+            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-3.jpg",
+            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-4.jpg",
+            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-5.jpg"
+        ],
+        "time": "9 giờ",
+        "typeTour": "1 ngày",
+        "group": "4 người",
+        "language": "Tiếng Việt, Tiếng Anh",
+        "adultFare": "800.000",
+        "childFare": "300.000",
+        "tourIntro": "Hội An, một trong những điểm đến đẹp nhất Việt Nam, nổi tiếng với phố cổ được UNESCO công nhận là Di sản Thế giới. Với những ngôi nhà cổ kính, bến cảng lịch sử và các món ăn đặc sản hấp dẫn, tour 1 ngày tại Hội An sẽ mang đến cho bạn những trải nghiệm thú vị và khó quên.",
+        "tourMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122778.27464803711!2d108.33467070463624!3d15.918441559923123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31420dd4e1353a7b%3A0xae336435edfcca3!2zVHAuIEjhu5lpIEFuLCBRdeG6o25nIE5hbSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1730307009456!5m2!1svi!2s",
+        "tourHighlights": [
+            "Khám phá kiến trúc cổ kính và văn hóa phong phú của phố cổ Hội An.",
+            "Thưởng thức các món ăn đặc sản như cao lầu, bánh mì Hội An và bánh bao.",
+            "Tham quan các điểm tham quan nổi bật như Chùa Cầu, Nhà cổ Tấn Ký và bảo tàng văn hóa Sa Huỳnh.",
+            "Tham gia vào các hoạt động thủ công truyền thống như làm đèn lồng hoặc gốm."
+        ],
+        "tourIncludes": [
+            "Vé vào cửa các điểm tham quan trong lịch trình.",
+            "Hướng dẫn viên du lịch chuyên nghiệp.",
+            "Xe đưa đón tại khách sạn trong khu vực trung tâm Hội An.",
+            "Bữa trưa với các món ăn đặc sản tại một nhà hàng địa phương."
+        ],
+        "tourNotIncluded": [
+            "Chi phí cá nhân.",
+            "Tiền tips cho hướng dẫn viên và lái xe (không bắt buộc).",
+            "Các dịch vụ ngoài chương trình."
+        ],
+        "tourSchedule": [
+            {
+                "day": "Ngày 1",
+                "schedule": [
+                    {
+                        "time": "8:00",
+                        "icon": "schedule",
+                        "title": "Đón khách tại khách sạn và khởi hành đến Hội An",
+                        "description": ""
+                    },
+                    {
+                        "time": "08:30",
+                        "icon": "location_on",
+                        "title": "bắt đầu tham quan phố cổ",
+                        "description": "Hướng dẫn viên sẽ giới thiệu về lịch sử và văn hóa của khu vực."
+                    },
+                    {
+                        "time": "10:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Chùa Cầu",
+                        "description": "Biểu tượng nổi tiếng của Hội An."
+                    },
+                    {
+                        "time": "10:30",
+                        "icon": "location_on",
+                        "title": "khám phá các nhà cổ",
+                        "description": "Nhà cổ Tấn Ký và bảo tàng văn hóa Sa Huỳnh."
+                    },
+                    {
+                        "time": "12:00",
+                        "icon": "apartment",
+                        "title": "Dùng bữa trưa tại nhà hàng địa phương",
+                        "description": "Chiêm ngưỡng các khối nhũ đá hình thù độc đáo"
+                    },
+                    {
+                        "time": "13:30",
+                        "icon": "location_on",
+                        "title": "Tham gia hoạt động",
+                        "description": "Làm đèn lồng truyền thống hoặc gốm tại một xưởng nghệ thuật địa phương."
+                    },
+                    {
+                        "time": "15:00",
+                        "icon": "location_on",
+                        "title": "Tự do dạo chơi",
+                        "description": "Mua sắm tại các cửa hàng đặc sản và quà lưu niệm"
+                    },
+                    {
+                        "time": "17:00",
+                        "icon": "home_pin",
+                        "title": "Kết thúc hành trình",
+                        "description": "Xe đưa đón sẽ trả khách đúng điểm hẹn"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Tour Nha Trang 2 ngày 1 đêm",
+        "location": "Khánh Hòa",
+        "images": [
+            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-1.jpg",
+            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-2.jpg",
+            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-3.png",
+            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-4.jpg",
+            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-5.jpeg"
+        ],
+        "time": "32 giờ",
+        "typeTour": "2 ngày 1 đêm",
+        "group": "10 người",
+        "language": "Tiếng Việt, Tiếng Anh",
+        "adultFare": "1.500.000",
+        "childFare": "600.000",
+        "tourIntro": "Nha Trang, thành phố biển nổi tiếng với bãi biển xanh mát, cát trắng và nhiều hoạt động giải trí hấp dẫn. Chuyến đi 2 ngày 1 đêm sẽ đưa bạn khám phá những điểm đến nổi bật của Nha Trang, từ các hòn đảo tuyệt đẹp đến những di sản văn hóa độc đáo.",
+        "tourHighlights": [
+            "Tham quan và tắm biển tại những bãi biển tuyệt đẹp như Bãi Dài và Hòn Tằm.",
+            "Khám phá Vinpearl Land, một trong những khu vui chơi giải trí lớn nhất tại Nha Trang.",
+            "Thưởng thức các món hải sản tươi ngon và đặc sản địa phương.",
+            "Trải nghiệm suối khoáng nóng tại Tháp Bà Ponagar."
+        ],
+        "tourIncludes": [
+            "Xe đưa đón tại khách sạn trong khu vực trung tâm Nha Trang.",
+            "Hướng dẫn viên du lịch chuyên nghiệp.",
+            "1 đêm lưu trú tại khách sạn 3 sao (hoặc tương đương).",
+            "Vé vào cửa các điểm tham quan trong lịch trình.",
+            "2 bữa ăn (1 bữa tối và 1 bữa sáng).",
+            "Chi phí tàu thuyền cho chuyến tham quan các hòn đảo."
+        ],
+        "tourNotIncluded": [
+            "Chi phí cá nhân (mua sắm, đồ uống ngoài)",
+            "Tiền tip cho hướng dẫn viên và tài xế (tự nguyện)",
+            "Bảo hiểm du lịch."
+        ],
+        "tourSchedule": [
+            {
+                "day": "Ngày 1",
+                "schedule": [
+                    {
+                        "time": "07:00",
+                        "icon": "schedule",
+                        "title": "Đón khách và khởi hành",
+                        "description": "Đón khách tại điểm hẹn và khởi hành đến Nha Trang."
+                    },
+                    {
+                        "time": "10:00",
+                        "icon": "location_on",
+                        "title": "tham quan Tháp Bà Ponagar",
+                        "description": "Nơi lưu giữ các giá trị văn hóa của người Chăm."
+                    },
+                    {
+                        "time": "12:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa tại nhà hàng",
+                        "description": ""
+                    },
+                    {
+                        "time": "13:30",
+                        "icon": "location_on",
+                        "title": "Tham quan Vinpearl Land",
+                        "description": "Tận hưởng các trò chơi giải trí và tham gia vào các hoạt động thú vị."
+                    },
+                    {
+                        "time": "17:00",
+                        "icon": "apartment",
+                        "title": "Check-in khách sạn",
+                        "description": ""
+                    },
+                    {
+                        "time": "19:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa tối",
+                        "description": ""
+                    },
+                    {
+                        "time": "20:30",
+                        "icon": "location_on",
+                        "title": "Tự do dạo chơi tại biển Nha Trang",
+                        "description": "Thưởng thức không khí về đêm hoặc tham gia vào các hoạt động giải trí ven biển."
+                    }
+                ]
+            },
+            {
+                "day": "Ngày 2",
+                "schedule": [
+                    {
+                        "time": "7:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa sáng tại khách sạn.",
+                        "description": ""
+                    },
+                    {
+                        "time": "8:00",
+                        "icon": "location_on",
+                        "title": "tham quan các hòn đảo xung quanh Nha Trang",
+                        "description": "Hòn Tằm, Hòn Mun, Hòn Một"
+                    },
+                    {
+                        "time": "10:00",
+                        "icon": "location_on",
+                        "title": "Tắm biển và tham gia các hoạt động thể thao dưới nước",
+                        "description": "Lặn biển ngắm san hô, kayak, hoặc câu cá."
+                    },
+                    {
+                        "time": "12:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa",
+                        "description": ""
+                    },
+                    {
+                        "time": "14:00",
+                        "icon": "location_on",
+                        "title": "khám phá vẻ đẹp thiên nhiên và sinh vật biển tại Hòn Mun",
+                        "description": ""
+                    },
+                    {
+                        "time": "16:00",
+                        "icon": "location_on",
+                        "title": "Quay về cảng và trở về khách sạn",
+                        "description": ""
+                    },
+                    {
+                        "time": "17:00",
+                        "icon": "home_pin",
+                        "title": "Kết thúc tour",
+                        "description": "Trả khách tại điểm hẹn."
+                    }
+                ]
+            }
+        ],
+        "tourMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d249525.14317604975!2d109.08168718064678!3d12.259756496238783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3170677811cc886f%3A0x5c4bbc0aa81edcb9!2zTmhhIFRyYW5nLCBLaMOhbmggSMOyYSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1730309776582!5m2!1svi!2s"
+    },
+    {
+        "id": 5,
+        "name": "Tour Phú Quốc 2 ngày 1 đêm",
+        "location": "Kiên Giang",
+        "images": [
+            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-1.jpg",
+            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-2.jpg",
+            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-3.png",
+            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-4.jpeg",
+            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-5.jpg"
+        ],
+        "time": "32 giờ",
+        "typeTour": "2 ngày 1 đêm",
+        "group": "15 người",
+        "language": "Tiếng Việt, Tiếng Anh",
+        "adultFare": "3.000.000",
+        "childFare": "1.200.000",
+        "tourIntro": "Phú Quốc, hòn đảo ngọc của Việt Nam, nổi tiếng với những bãi biển tuyệt đẹp, nước biển trong xanh và các hoạt động thể thao biển hấp dẫn. Chuyến đi 2 ngày 1 đêm sẽ giúp bạn khám phá vẻ đẹp hoang sơ của hòn đảo này, từ những bãi tắm quyến rũ đến các địa điểm tham quan nổi bật.",
+        "tourHighlights": [
+            "Tham quan bãi Sao, một trong những bãi biển đẹp nhất Phú Quốc.",
+            "Khám phá Vinpearl Safari, nơi bạn có thể gặp gỡ và tìm hiểu về nhiều loài động vật hoang dã.",
+            "Thưởng thức các món hải sản tươi ngon và đặc sản địa phương.",
+            "Tham quan Dinh Cậu và các làng chài ven biển để hiểu thêm về văn hóa địa phương."
+        ],
+        "tourIncludes": [
+            "Xe đưa đón tại khách sạn trong khu vực trung tâm Phú Quốc.",
+            "Hướng dẫn viên du lịch chuyên nghiệp.",
+            "1 đêm lưu trú tại khách sạn 3 sao (hoặc tương đương).",
+            "Vé vào cửa các điểm tham quan trong lịch trình.",
+            "2 bữa ăn (1 bữa tối và 1 bữa sáng)."
+        ],
+        "tourNotIncluded": [
+            "Chi phí cá nhân (mua sắm, đồ uống ngoài)",
+            "Tiền tip cho hướng dẫn viên và tài xế (tự nguyện)",
+            "Bảo hiểm du lịch."
+        ],
+        "tourSchedule": [
+            {
+                "day": "Ngày 1",
+                "schedule": [
+                    {
+                        "time": "07:00",
+                        "icon": "schedule",
+                        "title": "Đón khách và khởi hành",
+                        "description": "Đón khách tại điểm hẹn và khởi hành đến Phú Quốc"
+                    },
+                    {
+                        "time": "09:30",
+                        "icon": "location_on",
+                        "title": "tham quan Dinh Cậu",
+                        "description": "Nơi nổi tiếng với vẻ đẹp thiên nhiên và tín ngưỡng văn hóa."
+                    },
+                    {
+                        "time": "11:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Bãi Sao",
+                        "description": "Một trong những bãi biển đẹp nhất, nơi bạn có thể tắm biển và thư giãn."
+                    },
+                    {
+                        "time": "12:30",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa tại nhà hàng",
+                        "description": ""
+                    },
+                    {
+                        "time": "14:00",
+                        "icon": "location_on",
+                        "title": "Tham quan Vinpearl Safari",
+                        "description": "Khám phá các loài động vật hoang dã và tham gia các hoạt động thú vị tại công viên."
+                    },
+                    {
+                        "time": "17:00",
+                        "icon": "apartment",
+                        "title": "Check-in khách sạn",
+                        "description": ""
+                    },
+                    {
+                        "time": "19:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa tối tại nhà hàng",
+                        "description": "Thưởng thức không khí về đêm hoặc tham gia vào các hoạt động giải trí ven biển."
+                    },
+                    {
+                        "time": "20:30",
+                        "icon": "location_on",
+                        "title": "Tự do dạo chơi tại các khu phố đêm hoặc thư giãn tại bãi biển.",
+                        "description": ""
+                    }
+                ]
+            },
+            {
+                "day": "Ngày 2",
+                "schedule": [
+                    {
+                        "time": "7:00",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa sáng tại khách sạn.",
+                        "description": ""
+                    },
+                    {
+                        "time": "8:00",
+                        "icon": "location_on",
+                        "title": "Tham quan các làng chài ven biển",
+                        "description": ""
+                    },
+                    {
+                        "time": "09:30",
+                        "icon": "location_on",
+                        "title": "Tham quan cơ sở sản xuất nước mắm Phú Quốc",
+                        "description": ""
+                    },
+                    {
+                        "time": "11:00",
+                        "icon": "location_on",
+                        "title": "Tham quan nhà thùng",
+                        "description": "Nơi sản xuất các sản phẩm đặc sản của đảo."
+                    },
+                    {
+                        "time": "12:30",
+                        "icon": "restaurant",
+                        "title": "Dùng bữa trưa tại nhà hàng",
+                        "description": ""
+                    },
+                    {
+                        "time": "14:00",
+                        "icon": "location_on",
+                        "title": "Tham gia các hoạt động thể thao biển",
+                        "description": "Lặn biển, kayak hoặc ngắm san hô tại các bãi biển xung quanh."
+                    },
+                    {
+                        "time": "16:00",
+                        "icon": "location_on",
+                        "title": "Quay về khách sạn để làm thủ tục trả phòng.",
+                        "description": ""
+                    },
+                    {
+                        "time": "17:00",
+                        "icon": "home_pin",
+                        "title": "Kết thúc tour",
+                        "description": "Trả khách tại điểm hẹn"
+                    }
+                ]
+            }
+        ],
+        "tourMap": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1006324.4328442444!2d103.11820725769044!3d9.854158018365688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a78c62b49eda17%3A0x8aa79fbbdd72cdb!2zUGjDuiBRdeG7kWM!5e0!3m2!1svi!2s!4v1730310983979!5m2!1svi!2s"
+    }
+]

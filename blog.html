@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" data-page="blog">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài viết - Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ba993b4f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assits/css/base.css">
+    <link rel="stylesheet" href="/assits/css/grid.css">
+    <link rel="stylesheet" href="/assits/css/main.css">
+    <link rel="stylesheet" href="/assits/css/blog.css">
+    <link rel="stylesheet" href="/assits/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header" id="header-placeholder"></header>
+        <!-- container -->
+        <div class="container">
+            <div class="grid">
+                <div class="slider__wrap">
+                    <div class="slider">
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Ho-Chi-Minh.jpeg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Hồ Chí Minh</h4>
+                                <p class="slider__card-text">Hồ Chí Minh, thành phố năng động và hiện đại, nổi bật với
+                                    kiến
+                                    trúc Pháp cổ kính, như Nhà thờ Đức Bà và Bưu điện Trung tâm. Thành phố còn hấp dẫn
+                                    du
+                                    khách với ẩm thực phong phú và văn hóa đa dạng, tạo nên trải nghiệm sống động và thú
+                                    vị.
+                                </p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Ha-Noi.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Hà Nội</h4>
+                                <p class="slider__card-text">Hà Nội, thành phố ngàn năm tuổi, quyến rũ du khách bằng vẻ
+                                    đẹp
+                                    cổ kính và không khí ấm áp. Những món phở, bún, chả thơm ngon và con phố nhộn nhịp
+                                    tạo
+                                    nên trải nghiệm sống động. Sự thân thiện của người dân làm cho nơi đây thật gần gũi
+                                    và
+                                    đáng nhớ.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Ha-Long.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Hạ Long</h4>
+                                <p class="slider__card-text">Hạ Long, kỳ quan thiên nhiên thế giới, nổi tiếng với hàng
+                                    nghìn
+                                    hòn đảo đá vôi kỳ vĩ và làn nước xanh biếc. Du khách có thể khám phá vẻ đẹp hùng vĩ
+                                    của
+                                    vịnh qua những chuyến du thuyền, thưởng thức hải sản tươi ngon và tận hưởng không
+                                    khí
+                                    trong lành, thư giãn giữa thiên nhiên.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Sa-Pa.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Sa Pa</h4>
+                                <p class="slider__card-text">Sa Pa, thiên đường núi rừng phía Bắc Việt Nam, nổi tiếng
+                                    với
+                                    cảnh đẹp hùng vĩ, những ruộng bậc thang xanh mướt và bản làng dân tộc đa dạng. Không
+                                    khí
+                                    trong lành và văn hóa độc đáo làm nơi đây trở nên hấp dẫn.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Ninh-Binh.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Ninh Bình</h4>
+                                <p class="slider__card-text">Ninh Bình, vùng đất với cảnh đẹp tự nhiên hùng vĩ, nổi
+                                    tiếng
+                                    với Tràng An, Tam Cốc và những ngôi chùa cổ. Không khí trong lành và di sản văn hóa
+                                    phong phú khiến Ninh Bình trở thành điểm đến hấp dẫn.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Hue.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Huế</h4>
+                                <p class="slider__card-text">Huế, thành phố di sản văn hóa, nổi bật với Cố đô và lăng
+                                    tẩm
+                                    vua Nguyễn. Nơi đây còn hấp dẫn du khách với ẩm thực độc đáo và vẻ đẹp nên thơ bên
+                                    sông
+                                    Hương.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Da-Nang.jpg);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Đà Nẵng</h4>
+                                <p class="slider__card-text">Đà Nẵng, thành phố biển xinh đẹp, nổi tiếng với bãi biển Mỹ
+                                    Khê, cầu Rồng độc đáo và Bà Nà Hills. Nơi đây hấp dẫn du khách với cảnh đẹp thiên
+                                    nhiên
+                                    và ẩm thực hải sản phong phú.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                        <div class="slider__card"
+                            style="background-image: url(/assits/img/blog-page/slider/Hoi-An.png);">
+                            <div class="slider__card-content">
+                                <h4 class="slider__card-title">Hội An</h4>
+                                <p class="slider__card-text">Hội An, phố cổ thơ mộng, nổi tiếng với những ngôi nhà gỗ
+                                    truyền
+                                    thống và ánh đèn lồng lung linh. Nơi đây còn hấp dẫn du khách với ẩm thực đặc sắc và
+                                    văn
+                                    hóa phong phú, tạo nên trải nghiệm đáng nhớ.</p>
+                                <button class="slider__card-btn">Xem thêm</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__card-nav">
+                        <div class="slider__card-nav-btn">
+                            <button id="card-prev">
+                                <span class="material-symbols-outlined slider__card-nav-icon">
+                                    keyboard_backspace
+                                </span>
+                            </button>
+                            <button id="card-next">
+                                <span class="material-symbols-outlined slider__card-nav-icon">
+                                    east
+                                </span>
+                            </button>
+                        </div>
+                        <div class="slider__card-nav-breadcrumb">
+                            <div class="slider__card-nav-line-wrap">
+                                <div class="slider__card-nav-line"></div>
+                                <div class="slider__card-nav-line current"></div>
+                            </div>
+                            <div class="slider__card-nav-number">1</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- các bài viết -->
+            <div class="grid wide">
+                <div class="blog">
+                    <div class="col l-8 m-8 c-12">
+                        <h2 class="blog__header">Các bài viết về du lịch</h2>
+                        <!-- <div class="blog__list"> -->
+                        <div class="row article-wrap">
+                            <div class="article__list"></div>
+                        </div>
+                    </div>
+                    <div class="aside col l-4 m-4 c-12">
+                        <div class="aside__search aside__section">
+                            <h4 class="aside__title">Tìm kiếm</h4>
+                            <div class="aside__search-input">
+                                <input type="search" placeholder="Nhập từ khóa ...">
+                                <span class="material-symbols-outlined aside__search-input-btn">
+                                    search
+                                </span>
+                            </div>
+                        </div>
+                        <div class="aside__posts aside__section">
+                            <h4 class="aside__title">Bài viết đề xuất</h4>
+                            <div class="aside__posts-list">
+                                <div class="aside__posts-item">
+                                    <img src="/assits/img/blog-page/blog/du-lich-Ha-Noi.jpg"
+                                        alt="Khám Phá Hà Nội: Nét Cổ Kính và Hiện Đại Giữa Lòng Thủ Đô"
+                                        class="aside__posts-item-img">
+                                    <div class="aside__posts-item-wrap">
+                                        <p class="aside__posts-item-title">Khám Phá Hà Nội: Nét Cổ Kính và Hiện Đại
+                                            Giữa
+                                            Lòng Thủ Đô</p>
+                                        <div class="aside__posts-item-time">26/08/2024</div>
+                                    </div>
+                                </div>
+                                <div class="aside__posts-item">
+                                    <img src="/assits/img/blog-page/blog/di-lich-Ninh-Binh.jpg"
+                                        alt="Ninh Bình – Vùng Đất Cố Đô Với Vẻ Đẹp Thiên Nhiên Tuyệt Mỹ"
+                                        class="aside__posts-item-img">
+                                    <div class="aside__posts-item-wrap">
+                                        <p class="aside__posts-item-title">Ninh Bình – Vùng Đất Cố Đô Với Vẻ Đẹp
+                                            Thiên
+                                            Nhiên Tuyệt Mỹ</p>
+                                        <div class="aside__posts-item-time">26/08/2024</div>
+                                    </div>
+                                </div>
+                                <div class="aside__posts-item">
+                                    <img src="/assits/img/blog-page/blog/du-lich-Ha-Long.jpg"
+                                        alt="Hạ Long – Kỳ Quan Thiên Nhiên Giữa Lòng Việt Nam"
+                                        class="aside__posts-item-img">
+                                    <div class="aside__posts-item-wrap">
+                                        <p class="aside__posts-item-title">Hạ Long – Kỳ Quan Thiên Nhiên Giữa Lòng
+                                            Việt
+                                            Nam</p>
+                                        <div class="aside__posts-item-time">10/08/2024</div>
+                                    </div>
+                                </div>
+                                <div class="aside__posts-item">
+                                    <img src="/assits/img/blog-page/blog/du-lich-Ho-Chi-Minh.jpg"
+                                        alt="Hồ Chí Minh – Thành Phố Năng Động Với Nét Văn Hóa Đặc Sắc"
+                                        class="aside__posts-item-img">
+                                    <div class="aside__posts-item-wrap">
+                                        <p class="aside__posts-item-title">Hồ Chí Minh – Thành Phố Năng Động Với Nét
+                                            Văn
+                                            Hóa Đặc Sắc</p>
+                                        <div class="aside__posts-item-time">10/09/2024</div>
+                                    </div>
+                                </div>
+                                <div class="aside__posts-item">
+                                    <img src="/assits/img/blog-page/blog/du-lich-Sa-Pa.jpg"
+                                        alt="Khám Phá Sa Pa: Thiên Đường Núi Rừng Tại Việt Nam"
+                                        class="aside__posts-item-img">
+                                    <div class="aside__posts-item-wrap">
+                                        <p class="aside__posts-item-title">Khám Phá Sa Pa: Thiên Đường Núi Rừng Tại
+                                            Việt
+                                            Nam</p>
+                                        <div class="aside__posts-item-time">15/09/2024</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="aside__category aside__section">
+                            <h4 class="aside__title">Danh mục</h4>
+                            <div class="aside__categories">
+                                <div class="aside__category-item">
+                                    <div class="article__type article__type--info">
+                                        Thông tin
+                                    </div>
+                                    <span class="aside__category-item-number">2</span>
+                                </div>
+                                <div class="aside__category-item">
+                                    <div class="article__type article__type--hotel">
+                                        Khách sạn
+                                    </div>
+                                    <span class="aside__category-item-number">2</span>
+                                </div>
+                                <div class="aside__category-item">
+                                    <div class="article__type article__type--tip">
+                                        Mẹo du lịch
+                                    </div>
+                                    <span class="aside__category-item-number">2</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- section subscribe -->
+                <div class="section-sub">
+                    <div class="sub__img">
+                        <img src="/assits/img/subscribe/Subscribe.png" alt="subscribe">
+                    </div>
+                    <div class="sub__content">
+                        <h3 class="content-header sub__header-text">Nhận các ưu đãi và nhiều hơn nữa từ Travel</h3>
+                        <div class="sub__sub-text">Đăng ký ngay để khám phá các ưu đãi giảm giá đặc biệt dành riêng cho
+                            bạn!</div>
+                        <form action="" class="form-sub">
+                            <input type="email" class="sub__input" placeholder="Nhập Email của bạn" required>
+                            <button class="sub__button">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer" id="footer-placeholder"></footer>
+    </div>
+
+    <script src="/javascript/headerFooter.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/blog.js"></script>
+</body>
+
+</html>

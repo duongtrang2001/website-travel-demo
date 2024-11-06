@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" data-page="hotel">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel - Travel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ba993b4f63.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assits/css/base.css">
+    <link rel="stylesheet" href="/assits/css/grid.css">
+    <link rel="stylesheet" href="/assits/css/main.css">
+    <link rel="stylesheet" href="/assits/css/services.css">
+    <link rel="stylesheet" href="/assits/css/responsive.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/Default.css">
+</head>
+
+<body>
+    <div class="app">
+        <!-- header -->
+        <div id="header-placeholder"></div>
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="section-content top-location">
+                    <h2 class="content-header">Điểm đến hàng đầu</h2>
+                    <div class="top-location__wrap">
+                        <div class="top-location__list items-container row"></div>
+                        <div class="dot-container"></div>
+                        <span class="material-symbols-outlined top-location__icon top-location__icon-left" id="top-prev">
+                            chevron_left
+                        </span>
+                        <span class="material-symbols-outlined top-location__icon top-location__icon-right" id="top-next">
+                            chevron_right
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- list hotel -->
+            <div class="list-hotel" id="list-hotel">
+                <div class="grid wide">
+                    <div class="section-content">
+                        <h2 class="content-header">Lập kế hoạch cho chuyến nghỉ dưỡng của bạn</h2>
+                        <div class="recommend__list row" id="recommend__list-all"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <!-- section recommend -->
+                <div class="section-content hotel-recommend">
+                    <h3 class="content-header content-header--left">Đề xuất cho bạn</h3>
+                    <div class="news__header-switch">
+                        <div class="news__header-switch-wrap">
+                            <span
+                                class="material-symbols-outlined news__header-switch-icon news__header-switch-icon--left" id="prev-btn">
+                                arrow_back_ios
+                            </span>
+                            <span class="material-symbols-outlined news__header-switch-icon" id="next-btn">
+                                arrow_forward_ios
+                            </span>
+                        </div>
+                    </div>
+                    <div class="recommend-list-wrap">
+                        <div class="recommend-list hotel-recommend__list row" id="recommend__list-filtered"></div>
+                    </div>
+                    <div class="dot-container"></div>
+                </div>
+
+                <!-- section subscribe -->
+                <div class="section-sub">
+                    <div class="sub__img">
+                        <img src="/assits/img/subscribe/Subscribe.png" alt="subscribe">
+                    </div>
+                    <div class="sub__content">
+                        <h3 class="content-header sub__header-text">Nhận các ưu đãi và nhiều hơn nữa từ Travel</h3>
+                        <div class="sub__sub-text">Đăng ký ngay để khám phá các ưu đãi giảm giá đặc biệt dành riêng
+                            cho
+                            bạn!</div>
+                        <form action="" class="form-sub">
+                            <input type="email" class="sub__input" placeholder="Nhập Email của bạn" required>
+                            <button class="sub__button">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div id="footer-placeholder"></div>
+    </div>
+    <script src="/javascript/headerFooter.js"></script>
+    <script src="/javascript/script.js"></script>
+    <script src="/javascript/services.js"></script>
+    <script src="/javascript/shared.js" type="module"></script>
+    <script src="/javascript/hotel.js" type="module"></script>
+
+    <!-- flatpickr -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr" defer></script>
+</body>
+
+</html>
