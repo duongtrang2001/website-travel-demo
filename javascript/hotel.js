@@ -1,49 +1,49 @@
 import * as shared from './shared.js';
 const items = [
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Ha-Noi.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Ha-Noi.jpg",
         alt: "Hà Nội",
         name: "Hà Nội",
         text: "7 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Ha-Long.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Ha-Long.jpg",
         alt: "Hạ Long",
         name: "Hạ Long",
         text: "5 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Sapa.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Sapa.jpg",
         alt: "Sapa",
         name: "Sapa",
         text: "5 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Ninh-Binh.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Ninh-Binh.jpg",
         alt: "Ninh Bình",
         name: "Ninh Bình",
         text: "8 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Hue.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Hue.jpg",
         alt: "Huế",
         name: "Huế",
         text: "6 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Da-Nang.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Da-Nang.jpg",
         alt: "Đà Nẵng",
         name: "Đà Nẵng",
         text: "10 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Hoi-An.png",
+        imgSrc: "assits/img/hotel-page/top-destinations/Hoi-An.png",
         alt: "Hội An",
         name: "Hội An",
         text: "4 Khách sạn"
     },
     {
-        imgSrc: "/assits/img/hotel-page/top-destinations/Ho-Chi-Minh.jpg",
+        imgSrc: "assits/img/hotel-page/top-destinations/Ho-Chi-Minh.jpg",
         alt: "Hồ Chí Minh",
         name: "Hồ Chí Minh",
         text: "12 Khách sạn"

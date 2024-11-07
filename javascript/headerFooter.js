@@ -19,7 +19,7 @@ async function loadContent(file, elementId) {
 }
 
 function loadHeaderContent(pageType) {
-    fetch('../json/header.json')
+    fetch('json/header.json')
         .then(response => response.json())
         .then(data => {
             const headerImg = document.querySelector('.header__img-background');

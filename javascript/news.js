@@ -9,7 +9,7 @@ let data = [];
 
 async function loadArticleData() {
     try {
-        const response = await fetch('/json/article.json');
+        const response = await fetch('json/article.json');
         data = await response.json();
         displayNewsItems();
         createDots();

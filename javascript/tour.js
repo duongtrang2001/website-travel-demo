@@ -2,32 +2,32 @@ import * as shared from './shared.js';
 
 const topTours = [
     {
-        imgSrc: "/assits/img/tour-page/top-destinations/du lich Vinh Ha Long.png",
+        imgSrc: "assits/img/tour-page/top-destinations/du lich Vinh Ha Long.png",
         alt: "Vịnh Hạ Long",
         name: "Vịnh Hạ Long",
         text: "4 tour"
     },
     {
-        imgSrc: "/assits/img/tour-page/top-destinations/du lich Da Nang.jpg",
+        imgSrc: "assits/img/tour-page/top-destinations/du lich Da Nang.jpg",
         alt: "Đà Nẵng",
         name: "Đà Nẵng",
         text: "6 tour"
     },
     {
-        imgSrc: "/assits/img/tour-page/top-destinations/du lich Hoi An.png",
+        imgSrc: "assits/img/tour-page/top-destinations/du lich Hoi An.png",
         alt: "Hội An",
         name: "Hội An",
         text: "4 tour"
     },
     
     {
-        imgSrc: "/assits/img/tour-page/top-destinations/du lich Nha Trang.jpg",
+        imgSrc: "assits/img/tour-page/top-destinations/du lich Nha Trang.jpg",
         alt: "Nha Trang",
         name: "Nha Trang",
         text: "5 tour"
     },
     {
-        imgSrc: "/assits/img/tour-page/top-destinations/du lich Phu Quoc.jpg",
+        imgSrc: "assits/img/tour-page/top-destinations/du lich Phu Quoc.jpg",
         alt: "Phú Quốc",
         name: "Phú Quốc",
         text: "3 tour"

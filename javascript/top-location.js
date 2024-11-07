@@ -16,7 +16,7 @@ async function loadTopLocationData(id) {
     sliderWrap.classList.add('hidden');
 
     try {
-        const response = await fetch('/json/top-location.json');
+        const response = await fetch('json/top-location.json');
         const topLocations = await response.json();
         const topLocation = topLocations.find(p => p.id == id);
         if (topLocation) {

@@ -5,7 +5,7 @@ const services = {
     hotel: [
         {
             name: "Diamond",
-            imgSrc: "/assits/img/hotel/Diamond hotel.jpg",
+            imgSrc: "assits/img/hotel/Diamond hotel.jpg",
             alt: "Diamond",
             discount: "-10%",
             liked: false,
@@ -22,7 +22,7 @@ const services = {
 
         {
             name: "Emerald Bay",
-            imgSrc: "/assits/img/hotel/Emerald Bay hotel.jpg",
+            imgSrc: "assits/img/hotel/Emerald Bay hotel.jpg",
             alt: "Emerald Bay",
             discount: "",
             liked: false,
@@ -39,7 +39,7 @@ const services = {
 
         {
             name: "Garden",
-            imgSrc: "/assits/img/hotel/Garden hotel.jpeg",
+            imgSrc: "assits/img/hotel/Garden hotel.jpeg",
             alt: "Garden",
             discount: "",
             liked: false,
@@ -56,7 +56,7 @@ const services = {
 
         {
             name: "Grand Sapphire",
-            imgSrc: "/assits/img/hotel/Grand Sapphire hotel.jpg",
+            imgSrc: "assits/img/hotel/Grand Sapphire hotel.jpg",
             alt: "Grand Sapphire",
             discount: "",
             liked: false,
@@ -73,7 +73,7 @@ const services = {
 
         {
             name: "Ruby",
-            imgSrc: "/assits/img/hotel/Ruby hotel.jpg",
+            imgSrc: "assits/img/hotel/Ruby hotel.jpg",
             alt: "Ruby",
             discount: "",
             liked: false,
@@ -90,7 +90,7 @@ const services = {
 
         {
             name: "The Muse",
-            imgSrc: "/assits/img/hotel/The Muse hotel.jpeg",
+            imgSrc: "assits/img/hotel/The Muse hotel.jpeg",
             alt: "The Muse",
             discount: "",
             liked: false,
@@ -107,7 +107,7 @@ const services = {
 
         {
             name: "The Onyx",
-            imgSrc: "/assits/img/hotel/The Onyx hotel.jpeg",
+            imgSrc: "assits/img/hotel/The Onyx hotel.jpeg",
             alt: "The Onyx",
             discount: "",
             liked: false,
@@ -124,7 +124,7 @@ const services = {
 
         {
             name: "The Royal Orchid",
-            imgSrc: "/assits/img/hotel/The Royal Orchid hotel.jpg",
+            imgSrc: "assits/img/hotel/The Royal Orchid hotel.jpg",
             alt: "The Royal Orchid",
             discount: "",
             liked: false,
@@ -144,7 +144,7 @@ const services = {
     tour: [
         {
             name: "1 ngày",
-            imgSrc: "/assits/img/tour/du lich Vinh Ha Long.png",
+            imgSrc: "assits/img/tour/du lich Vinh Ha Long.png",
             alt: "1 ngày",
             discount: "",
             liked: false,
@@ -161,7 +161,7 @@ const services = {
         },
         {
             name: "Tour 2 ngày 1 đêm",
-            imgSrc: "/assits/img/tour/du lich Da Nang.jpg",
+            imgSrc: "assits/img/tour/du lich Da Nang.jpg",
             alt: "Tour 2 ngày 1 đêm",
             discount: "",
             liked: false,
@@ -178,7 +178,7 @@ const services = {
         },
         {
             name: "1 ngày",
-            imgSrc: "/assits/img/tour/du lich Hoi An.png",
+            imgSrc: "assits/img/tour/du lich Hoi An.png",
             alt: "1 ngày",
             discount: "",
             liked: false,
@@ -195,7 +195,7 @@ const services = {
         },
         {
             name: "Tour 2 ngày 1 đêm",
-            imgSrc: "/assits/img/tour/du lich Nha Trang.jpg",
+            imgSrc: "assits/img/tour/du lich Nha Trang.jpg",
             alt: "Tour 2 ngày 1 đêm",
             discount: "",
             liked: false,
@@ -212,7 +212,7 @@ const services = {
         },
         {
             name: "Tour 2 ngày 1 đêm",
-            imgSrc: "/assits/img/tour/du lich Phu Quoc.jpg",
+            imgSrc: "assits/img/tour/du lich Phu Quoc.jpg",
             alt: "Tour 2 ngày 1 đêm",
             discount: "",
             liked: false,

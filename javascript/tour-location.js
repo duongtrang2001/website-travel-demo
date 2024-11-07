@@ -15,7 +15,7 @@ const tourId = parseInt(urlParams.get('id'));
 
 async function loadTourLocationData(id) {
     try {
-        const response = await fetch('/json/tour-location.json');
+        const response = await fetch('json/tour-location.json');
         const tourLocations = await response.json();
         const tourLocation = tourLocations.find(t => t.id == id);
 

@@ -4,12 +4,12 @@
         "name": "Đà Nẵng",
         "location": "Đà Nẵng",
         "images": [
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-1.jpg",
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-2.jpg",
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-3.jpg",
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-4.jpg",
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-5.jpg",
-            "/assits/img/top-location-page/Da-Nang/Da-Nang-6.jpg"
+            "assits/img/top-location-page/Da-Nang/Da-Nang-1.jpg",
+            "assits/img/top-location-page/Da-Nang/Da-Nang-2.jpg",
+            "assits/img/top-location-page/Da-Nang/Da-Nang-3.jpg",
+            "assits/img/top-location-page/Da-Nang/Da-Nang-4.jpg",
+            "assits/img/top-location-page/Da-Nang/Da-Nang-5.jpg",
+            "assits/img/top-location-page/Da-Nang/Da-Nang-6.jpg"
         ],
         "title": "Đà Nẵng",
         "content": "Đà Nẵng là một thành phố năng động và hiện đại nằm ở miền Trung Việt Nam, nổi tiếng với những bãi biển tuyệt đẹp, cảnh quan thiên nhiên hùng vĩ và sự phát triển kinh tế nhanh chóng. Với vị trí chiến lược, Đà Nẵng đóng vai trò là cửa ngõ giao thương quan trọng, kết nối các di sản văn hóa thế giới như Hội An và Huế. Thành phố không chỉ thu hút du khách bởi các công trình kiến trúc độc đáo như Cầu Rồng, Bà Nà Hills mà còn bởi ẩm thực phong phú và con người thân thiện, hiếu khách.",
@@ -20,12 +20,12 @@
         "name": "Đảo Phú Quý",
         "location": "Đảo Phú Quý",
         "images": [
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-1.jpeg",
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-2.jpeg",
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-3.jpg",
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-4.jpg",
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-5.jpg",
-            "/assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-6.jpg"
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-1.jpeg",
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-2.jpeg",
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-3.jpg",
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-4.jpg",
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-5.jpg",
+            "assits/img/top-location-page/Dao-Phu-Quy/du-lich-dao-phu-quy-6.jpg"
         ],
         "title": "Đảo Phú Quý",
         "content": "<p>Đảo Phú Quý, một viên ngọc quý giữa lòng biển cả, nằm cách thành phố Phan Thiết khoảng 56 hải lý, thuộc tỉnh Bình Thuận, Việt Nam. Với diện tích khoảng 16 km², đảo sở hữu những bãi biển trong xanh, cát trắng mịn cùng với những dãy núi đá hùng vĩ và hệ sinh thái đa dạng, phong phú. Đặc biệt, những rạn san hô quanh đảo là một trong những điểm đến lý tưởng cho những ai yêu thích lặn biển và khám phá thế giới dưới nước.</p><p>Phú Quý không chỉ thu hút du khách bởi cảnh sắc thiên nhiên tuyệt đẹp mà còn bởi những hoạt động khám phá thú vị như lặn ngắm san hô, câu cá, và thưởng thức hải sản tươi ngon, đặc biệt là các món ăn chế biến từ cá ngừ và ghẹ biển. Du khách còn có cơ hội tham quan những địa điểm nổi tiếng như ngọn hải đăng Phú Quý, chùa Linh Sơn, và các bãi biển đẹp như Bãi Nhỏ, Bãi Dừa.</p><p>Bên cạnh vẻ đẹp tự nhiên, đảo Phú Quý còn mang trong mình những giá trị văn hóa đặc sắc của người dân địa phương. Các lễ hội truyền thống, phong tục tập quán độc đáo, cùng sự hiếu khách của người dân nơi đây tạo nên những trải nghiệm độc đáo và ý nghĩa cho du khách. Đến với Phú Quý, bạn không chỉ được chiêm ngưỡng vẻ đẹp của thiên nhiên mà còn được hòa mình vào cuộc sống bình dị và thân thiện của người dân nơi đây, tạo nên những kỷ niệm khó quên trong hành trình khám phá.</p>",
@@ -36,10 +36,10 @@
         "name": "Vịnh Hạ Long",
         "location": "Vịnh Hạ Long",
         "images": [
-            "/assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-1.jpg",
-            "/assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-2.jpg",
-            "/assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-3.jpg",
-            "/assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-4.jpg"
+            "assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-1.jpg",
+            "assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-2.jpg",
+            "assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-3.jpg",
+            "assits/img/top-location-page/Vinh-Ha-Long/du-lich-Vinh-Ha-Long-4.jpg"
         ],
         "title": "Vịnh Hạ Long",
         "content": "Vịnh Hạ Long, một trong những kỳ quan thiên nhiên nổi tiếng của thế giới, là điểm đến hấp dẫn với hàng nghìn hòn đảo đá vôi và đảo nhỏ nổi bật trên làn nước xanh ngọc bích. Nằm ở tỉnh Quảng Ninh, vịnh này sở hữu khung cảnh tuyệt đẹp với những khối đá vôi kỳ vĩ, những hang động huyền bí và nhiều bãi biển hoang sơ. Tại đây, du khách có thể tham gia các hoạt động như chèo thuyền kayak, ngắm hoàng hôn trên tàu du lịch, khám phá hang động hay thưởng thức các món hải sản tươi ngon. Vịnh Hạ Long là lựa chọn lý tưởng cho những ai muốn tận hưởng vẻ đẹp hùng vĩ của thiên nhiên Việt Nam và tìm kiếm trải nghiệm du lịch đáng nhớ.",
@@ -50,11 +50,11 @@
         "name": "Hội An",
         "location": "Hội An",
         "images": [
-            "/assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-1.jpg",
-            "/assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-2.jpg",
-            "/assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-3.png",
-            "/assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-4.jpg",
-            "/assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-5.jpg"
+            "assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-1.jpg",
+            "assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-2.jpg",
+            "assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-3.png",
+            "assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-4.jpg",
+            "assits/img/top-location-page/Hoi-An/du-lich-Hoi-An-5.jpg"
         ],
         "title": "Hội An",
         "content": "Hội An, phố cổ nằm bên bờ sông Thu Bồn ở tỉnh Quảng Nam, là điểm đến quyến rũ với vẻ đẹp cổ kính và bình yên. Hội An nổi bật với những ngôi nhà mái ngói rêu phong, những con phố đèn lồng đầy màu sắc và kiến trúc kết hợp hài hòa giữa văn hóa Việt, Hoa, Nhật Bản và Pháp. Du khách đến Hội An không chỉ có thể dạo bước trong phố cổ, chiêm ngưỡng vẻ đẹp hoài niệm mà còn tham gia các hoạt động thú vị như thả đèn hoa đăng, trải nghiệm làm lồng đèn, học nấu ăn và thưởng thức các món đặc sản như cao lầu, mì Quảng. Bãi biển An Bàng gần đó cũng là điểm đến lý tưởng cho những ai muốn thư giãn bên bờ biển. Hội An mang đến cho du khách một không gian bình yên, thơ mộng và đầy sức hút văn hóa.",
@@ -65,10 +65,10 @@
         "name": "Kinh Thành Huế",
         "location": "Kinh Thành Huế",
         "images": [
-            "/assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-1.jpg",
-            "/assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-2.jpg",
-            "/assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-3.jpg",
-            "/assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-4.jpg"
+            "assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-1.jpg",
+            "assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-2.jpg",
+            "assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-3.jpg",
+            "assits/img/top-location-page/Kinh-Thanh-Hue/du-lich-Kinh-Thanh-Hue-4.jpg"
         ],
         "title": "Kinh Thành Huế",
         "content": "<p>Kinh Thành Huế, di sản văn hóa thế giới được UNESCO công nhận, là một biểu tượng lịch sử và văn hóa quan trọng của Việt Nam. Tọa lạc tại thành phố Huế, tỉnh Thừa Thiên Huế, kinh thành được xây dựng dưới triều đại nhà Nguyễn vào thế kỷ 19 và là trung tâm chính trị, văn hóa và tôn giáo của triều đại phong kiến cuối cùng ở Việt Nam.</p><p>Kinh thành Huế bao gồm ba khu vực chính: Hoàng Thành, Tử Cấm Thành và Đại Nội, mỗi nơi đều mang đậm dấu ấn của kiến trúc cung đình với những công trình nguy nga, từ cổng Ngọ Môn, Điện Thái Hòa, cho đến các lăng tẩm của vua chúa. Khách tham quan sẽ được chiêm ngưỡng không gian uy nghi và kiến trúc tinh xảo, đồng thời khám phá nét văn hóa cung đình qua trang phục, âm nhạc và nghi lễ truyền thống.</p><p>Với bề dày lịch sử và vẻ đẹp cổ kính, Kinh Thành Huế là điểm đến không thể bỏ qua cho những ai muốn hiểu rõ hơn về di sản phong phú của Việt Nam.</p>",
@@ -79,11 +79,11 @@
         "name": "Nha Trang",
         "location": "Nha Trang",
         "images": [
-            "/assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-1.jpg",
-            "/assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-2.jpg",
-            "/assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-3.jpg",
-            "/assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-4.jpg",
-            "/assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-5.jpg"
+            "assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-1.jpg",
+            "assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-2.jpg",
+            "assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-3.jpg",
+            "assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-4.jpg",
+            "assits/img/top-location-page/Nha-Trang/du-lich-Nha-Trang-5.jpg"
         ],
         "title": "Nha Trang",
         "content": "<p>Nha Trang, thành phố biển nổi tiếng thuộc tỉnh Khánh Hòa, là điểm đến hấp dẫn với vẻ đẹp tuyệt mỹ của bờ biển dài, nước biển xanh ngọc và những bãi cát trắng mịn. Được mệnh danh là <strong>hòn ngọc của biển Đông</strong>, Nha Trang không chỉ sở hữu cảnh quan thiên nhiên tuyệt đẹp mà còn có khí hậu ôn hòa quanh năm, là nơi lý tưởng cho các hoạt động vui chơi và thư giãn bên bờ biển.</p><p></p>Ngoài những bãi biển nổi tiếng như bãi Dài, bãi Trũ, và Dốc Lết, du khách còn có thể khám phá quần thể đảo Vinpearl Land, hòn Tằm, hòn Mun hay các khu bảo tồn thiên nhiên. Đặc biệt, Nha Trang còn là thiên đường cho những ai đam mê lặn biển, chèo thuyền kayak và các môn thể thao dưới nước. Thành phố còn mang đến trải nghiệm văn hóa đa dạng với Tháp Bà Ponagar, chợ Đầm và nền ẩm thực phong phú như nem Ninh Hòa, bánh canh chả cá.<p>Nha Trang là sự kết hợp hoàn hảo giữa thiên nhiên và văn hóa, mang đến cho du khách một kỳ nghỉ tuyệt vời với nhiều trải nghiệm đáng nhớ.</p>",
@@ -94,10 +94,10 @@
         "name": "Phong Nha - Kẻ Bàng",
         "location": "Phong Nha - Kẻ Bàng",
         "images": [
-            "/assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-1.jpg",
-            "/assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-2.jpg",
-            "/assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-3.jpg",
-            "/assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-4.jpg"
+            "assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-1.jpg",
+            "assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-2.jpg",
+            "assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-3.jpg",
+            "assits/img/top-location-page/Phong-Nha-Ke-Bang/du-lich-Phong-Nha-Ke-Bang-4.jpg"
         ],
         "title": "Phong Nha - Kẻ Bàng",
         "content": "<p>Phong Nha - Kẻ Bàng, di sản thiên nhiên thế giới được UNESCO công nhận, là một trong những kỳ quan thiên nhiên độc đáo của Việt Nam. Nằm tại tỉnh Quảng Bình, công viên quốc gia Phong Nha - Kẻ Bàng nổi tiếng với hệ thống hang động hùng vĩ và phức tạp, cùng những cảnh quan núi đá vôi tuyệt đẹp có niên đại hàng trăm triệu năm.</p><p>Với hơn 300 hang động lớn nhỏ, Phong Nha - Kẻ Bàng là nơi có nhiều hang động nổi tiếng như Sơn Đoòng, hang động lớn nhất thế giới, cùng với hang Én, hang Tối và động Phong Nha – những kỳ quan đầy bí ẩn với thạch nhũ lấp lánh và sông ngầm xanh biếc. Khách du lịch đến đây có thể trải nghiệm chèo thuyền trên sông Son, khám phá hang động và chiêm ngưỡng cảnh sắc hùng vĩ của núi rừng hoang sơ.</p><p>Không chỉ nổi bật với cảnh quan thiên nhiên ấn tượng, Phong Nha - Kẻ Bàng còn là nơi đa dạng về sinh thái với nhiều loài động thực vật quý hiếm. Đây là điểm đến lý tưởng cho những người yêu thiên nhiên, thích khám phá và muốn tìm về với vẻ đẹp nguyên sơ của tạo hóa.</p>",
@@ -108,13 +108,13 @@
         "name": "Phú Quốc",
         "location": "Phú Quốc",
         "images": [
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-1.jpg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-2.jpg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-3.jpg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-4.jpg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-5.jpg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-6.jpeg",
-            "/assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-7.png"
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-1.jpg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-2.jpg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-3.jpg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-4.jpg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-5.jpg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-6.jpeg",
+            "assits/img/top-location-page/Phu-Quoc/du-lich-Phu-Quoc-7.png"
         ],
         "title": "Phú Quốc",
         "content": "<p>Phú Quốc, hòn đảo ngọc của Việt Nam, nằm trong vịnh Thái Lan thuộc tỉnh Kiên Giang, là thiên đường nghỉ dưỡng với những bãi biển tuyệt đẹp, làn nước trong xanh và bãi cát trắng mịn trải dài. Nơi đây nổi tiếng với khí hậu ôn hòa quanh năm, thích hợp cho các hoạt động du lịch biển và nghỉ dưỡng.</p><p>Phú Quốc có nhiều điểm đến hấp dẫn như bãi Sao, bãi Dài, làng chài Hàm Ninh và khu bảo tồn biển với hệ sinh thái san hô đa dạng. Ngoài ra, du khách có thể tham gia các hoạt động thú vị như lặn biển ngắm san hô, câu mực đêm, và khám phá Vinpearl Safari – công viên hoang dã lớn nhất Việt Nam. Không chỉ có thiên nhiên tuyệt đẹp, Phú Quốc còn nổi tiếng với các đặc sản hấp dẫn như nước mắm, tiêu, ngọc trai và hải sản tươi ngon.</p><p>Với sự kết hợp giữa cảnh quan thiên nhiên trù phú và trải nghiệm văn hóa địa phương phong phú, Phú Quốc là điểm đến lý tưởng cho những kỳ nghỉ đáng nhớ.</p>",
@@ -125,9 +125,9 @@
         "name": "Văn Miếu Quốc Tử Giám",
         "location": "Văn Miếu Quốc Tử Giám",
         "images": [
-            "/assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-1.jpg",
-            "/assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-2.jpg",
-            "/assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-3.jpg"
+            "assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-1.jpg",
+            "assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-2.jpg",
+            "assits/img/top-location-page/Van-Mieu-Quoc-Tu-Giam/du-lich-Van-Mieu-Quoc-Tu-Giam-3.jpg"
         ],
         "title": "Văn Miếu Quốc Tử Giám",
         "content": "<p>Văn Miếu Quốc Tử Giám, di tích lịch sử - văn hóa đặc biệt tại Hà Nội, là biểu tượng của truyền thống hiếu học và tinh thần tôn vinh tri thức của Việt Nam. Được xây dựng từ năm 1070 dưới triều đại nhà Lý, Văn Miếu ban đầu là nơi thờ Khổng Tử và các danh nhân Nho học, sau đó trở thành Quốc Tử Giám – trường đại học đầu tiên của Việt Nam, nơi đào tạo nhiều hiền tài cho đất nước.</p><p>Văn Miếu Quốc Tử Giám có kiến trúc cổ kính và hài hòa, bao gồm nhiều khu vực như cổng Văn Miếu, Khuê Văn Các, sân bia Tiến sĩ, và các điện thờ trang nghiêm. Đặc biệt, bia Tiến sĩ được đặt trên lưng rùa là minh chứng cho thành tích học tập và sự tri ân đối với các danh nhân trong lịch sử. Với không gian tĩnh lặng, uy nghi, nơi đây thu hút du khách đến tham quan, tìm hiểu về nền giáo dục Nho học xưa và lắng mình trong bầu không khí văn hóa cổ kính.</p><p>Văn Miếu Quốc Tử Giám không chỉ là điểm du lịch mà còn là niềm tự hào của người Việt, nơi tôn vinh trí tuệ và là biểu tượng cho sự trường tồn của nền học thuật nước nhà.</p>",

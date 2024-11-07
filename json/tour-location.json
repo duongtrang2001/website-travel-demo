@@ -4,11 +4,11 @@
         "name": "Tour Hạ Long 1 ngày",
         "location": "Quảng Ninh",
         "images": [
-            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-1.jpg",
-            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-2.jpg",
-            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-3.jpg",
-            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-4.jpg",
-            "/assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-5.jpg"
+            "assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-1.jpg",
+            "assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-2.jpg",
+            "assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-3.jpg",
+            "assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-4.jpg",
+            "assits/img/tour/tour-location/Quang-Ninh/tour-Ha-Long-1-ngay/tour-Ha-Long-1-ngay-5.jpg"
         ],
         "time": "10 giờ",
         "typeTour": "1 ngày",
@@ -98,11 +98,11 @@
         "name": "Tour Đà Nẵng 2 ngày 1 đêm",
         "location": "Đà Nẵng",
         "images": [
-            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-1.png",
-            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-2.jpeg",
-            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-3.jpg",
-            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-4.jpg",
-            "/assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-5.jpg"
+            "assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-1.png",
+            "assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-2.jpeg",
+            "assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-3.jpg",
+            "assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-4.jpg",
+            "assits/img/tour/tour-location/Da-Nang/tour-Da-Nang-2-ngay-1-dem/tour-Da-Nang-2-ngay-1-dem-5.jpg"
         ],
         "time": "32 giờ",
         "typeTour": "2 ngày 1 đêm",
@@ -229,11 +229,11 @@
         "name": "Tour Hội An 1 ngày",
         "location": "Quảng Nam",
         "images": [
-            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-1.jpg",
-            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-2.png",
-            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-3.jpg",
-            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-4.jpg",
-            "/assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-5.jpg"
+            "assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-1.jpg",
+            "assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-2.png",
+            "assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-3.jpg",
+            "assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-4.jpg",
+            "assits/img/tour/tour-location/Quang-Nam/tour-Hoi-An-1-ngay/tour-Hoi-An-1-ngay-5.jpg"
         ],
         "time": "9 giờ",
         "typeTour": "1 ngày",
@@ -321,11 +321,11 @@
         "name": "Tour Nha Trang 2 ngày 1 đêm",
         "location": "Khánh Hòa",
         "images": [
-            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-1.jpg",
-            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-2.jpg",
-            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-3.png",
-            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-4.jpg",
-            "/assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-5.jpeg"
+            "assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-1.jpg",
+            "assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-2.jpg",
+            "assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-3.png",
+            "assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-4.jpg",
+            "assits/img/tour/tour-location/Khanh-Hoa/tour-Nha-Trang-2-ngay-1-dem/tour-Nha-Trang-2-ngay-1-dem-5.jpeg"
         ],
         "time": "32 giờ",
         "typeTour": "2 ngày 1 đêm",
@@ -456,11 +456,11 @@
         "name": "Tour Phú Quốc 2 ngày 1 đêm",
         "location": "Kiên Giang",
         "images": [
-            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-1.jpg",
-            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-2.jpg",
-            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-3.png",
-            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-4.jpeg",
-            "/assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-5.jpg"
+            "assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-1.jpg",
+            "assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-2.jpg",
+            "assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-3.png",
+            "assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-4.jpeg",
+            "assits/img/tour/tour-location/Kien-Giang/tour-Phu-Quoc-2-ngay-1-dem/tour-Phu-Quoc-2-ngay-1-dem-5.jpg"
         ],
         "time": "32 giờ",
         "typeTour": "2 ngày 1 đêm",

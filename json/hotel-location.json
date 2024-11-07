@@ -5,11 +5,11 @@
         "location": "Đà Nẵng",
         "price": "750.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/Diamond/Diamond-hotel-5.jpg"
         ],
         "stars": 5,
         "title": "Về khách sạn Diamond",
@@ -26,11 +26,11 @@
         "location": "Vịnh Hạ Long",
         "price": "1.700.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-1.png",
-            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-2.jpeg",
-            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-5.jpeg"
+            "assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-1.png",
+            "assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-2.jpeg",
+            "assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Vinh-Ha-Long/Emerald-Bay/Emerald-Bay-hotel-5.jpeg"
         ],
         "stars": 5,
         "title": "Về khách sạn Emerald Bay",
@@ -46,11 +46,11 @@
         "location": "Nha Trang",
         "price": "2.000.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Garden/Garden-hotel-5.jpg"
         ],
         "stars": 5,
         "title": "Về khách sạn Garden",
@@ -67,11 +67,11 @@
         "location": "Hội An",
         "price": "800.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Hoi-An/Grand-Sapphire/Grand-Sapphire-hotel-5.jpg"
         ],
         "stars": 4,
         "title": "Về khách sạn Grand Sapphire",
@@ -88,11 +88,11 @@
         "location": "Nha Trang",
         "price": "1.300.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-2.jpeg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-2.jpeg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Nha-Trang/Ruby/Ruby-hotel-5.jpg"
         ],
         "stars": 4,
         "title": "Về khách sạn Ruby",
@@ -109,11 +109,11 @@
         "location": "Đà Nẵng",
         "price": "1.500.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-1.png",
-            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-1.png",
+            "assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Da-Nang/The-Muse/The-Muse-hotel-5.jpg"
         ],
         "stars": 5,
         "title": "Về khách sạn The Muse",
@@ -130,11 +130,11 @@
         "location": "Phú Quốc",
         "price": "1.500.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-4.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-5.jpeg"
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-4.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Onyx/The-Onyx-hotel-5.jpeg"
         ],
         "stars": 5,
         "title": "Về khách sạn The Onyx",
@@ -151,11 +151,11 @@
         "location": "Phú Quốc",
         "price": "1.500.000 VND",
         "images": [
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-1.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-2.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-3.jpg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-4.jpeg",
-            "/assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-5.jpg"
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-1.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-2.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-3.jpg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-4.jpeg",
+            "assits/img/hotel/hotel-location/Phu-Quoc/The-Royal-Orchid/The-Royal-Orchid-hotel-5.jpg"
         ],
         "stars": 5,
         "title": "Về khách sạn The Royal Orchid",

@@ -1,4 +1,3 @@
-
 const cardPrev = $('#card-prev');
 const cardNext = $('#card-next');
 let lengthLineCurrent = 0;
@@ -10,7 +9,7 @@ const id = urlParams.get('id');
 
 async function loadArticlesData() {
     try {
-        const response = await fetch('../json/article.json');
+        const response = await fetch('json/article.json');
         articles = await response.json();
 
         displayBlogItem();

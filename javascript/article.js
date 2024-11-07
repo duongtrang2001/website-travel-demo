@@ -5,7 +5,7 @@ const articleId = urlParams.get('id');
 async function loadArticleData(id) {
 
     try {
-        const response = await fetch('../json/article.json');
+        const response = await fetch('json/article.json');
         const articles = await response.json();
         const article = articles.find(a => a.id == id);
         if (article) {

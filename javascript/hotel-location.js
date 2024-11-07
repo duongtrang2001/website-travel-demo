@@ -30,7 +30,7 @@ async function loadHotelData(id) {
     const reviewStar = $('.info__review-star')
 
     try {
-        const response = await fetch('/json/hotel-location.json');
+        const response = await fetch('json/hotel-location.json');
         const hotelLocations = await response.json();
         const hotelLocation = hotelLocations.find(h => h.id == id);
         if (hotelLocation) {
