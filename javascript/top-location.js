@@ -41,7 +41,6 @@ async function loadTopLocationData(id) {
             renderImages();
 
             // Gọi displayService sau khi topLocation đã tải xong
-
             const recommendBtns = $$('.recommend__button');
             recommendBtns.forEach((btn) => {
 
@@ -63,6 +62,9 @@ async function loadTopLocationData(id) {
                 }
                 
             });
+            displayServices('hotel', '#top-location__services-list', service => {
+                return service.location === topLocation.location;
+            });
     });
             
         }
@@ -83,13 +85,15 @@ function updatePageContent(topLocation) {
 function renderImages() {
     if (listImg.length === 0) {
         console.error('listImg is empty.');
+        return;
     }
 
     if (imgCurrentIndex < 0 || imgCurrentIndex >= listImg.length) {
         console.error('imgCurrentIndex is out of bounds:', imgCurrentIndex);
+        return;
     }
-    const imgElement = listImg[imgCurrentIndex];
 
+    const imgElement = listImg[imgCurrentIndex];
     if (imgElement instanceof Element) {
         const imgStyles = getComputedStyle(imgElement);
         const imgMarginLeft = parseInt(imgStyles.marginLeft);
@@ -101,6 +105,7 @@ function renderImages() {
         const realIndex = ((imgCurrentIndex - 1 + listImg.length - 2 ) % (listImg.length - 2)) + 1;
         $('.current-img').textContent = realIndex;
         $('.imgs').textContent = listImg.length - 2;
+
     } else {
         console.error('imgElement is not a valid DOM element:', imgElement);
     }
@@ -170,9 +175,6 @@ prevPagination.addEventListener('click', prevTopBtn)
 window.onload = () => {
     const defaulBtn = $('.recommend__button[data-category="1"]');
     defaulBtn.classList.add('recommend__button--active');
-    displayServices('hotel', '#top-location__services-list', service => {
-        return service.location === 'Đà Nẵng';
-    })
 
     if (topLocationId) {
         loadTopLocationData(topLocationId);
@@ -187,11 +189,11 @@ window.onload = () => {
 document.addEventListener('DOMContentLoaded', () => {
     cloneEdgeImages();
     loadTopLocationData(topLocationId); //Gọi loadTopLocationData với id từ URL
-
-    
-
     displayNewsItems()
     // sectionNews(news)
+
+   
 })
+
 
 window.addEventListener('resize', renderImages)
